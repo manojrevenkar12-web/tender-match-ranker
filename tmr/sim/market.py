@@ -32,7 +32,7 @@ def world_config() -> dict[str, Any]:
         return yaml.safe_load(f)
 
 
-def _mix(*keys: int) -> np.ndarray:
+def _mix(*keys: Any) -> np.ndarray:
     """splitmix64 over integer keys (arrays broadcast): reproducible uniforms in [0, 1)."""
     x = np.zeros(np.broadcast(*[np.asarray(k) for k in keys]).shape, dtype=UINT64)
     with np.errstate(over="ignore"):

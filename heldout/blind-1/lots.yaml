@@ -1,0 +1,1580 @@
+- id: lot-001
+  title: "Los 8 Stahlbauarbeiten"
+  text: |
+    Stahlkonstruktion Lagerhalle S355, ca. 86 t, feuerverzinkt, inkl. Werkstatt- und Montageplanung,
+    Ausführung nach DIN EN 1090-2, EXC 2.
+  trade: stahlbau
+  city: "Ingolstadt"
+
+- id: lot-002
+  title: "Los 29 Hartbeläge"
+  text: |
+    Feinsteinzeug 120 x 60 im Foyer, Dünnbett, ca. 450 m², Sockel 8 cm.
+  trade: fliesen
+  city: "Mannheim"
+  note: "near-miss fliesen vs bodenbelag: 'Belag', but tiles"
+
+- id: lot-003
+  title: "LV 50"
+  text: |
+    NYM-J 3x1,5, Kabelrinnen, Schalter und Steckdosen Serienprogramm reinweiß, Leerrohre.
+  trade: elektro
+  city: "Neuss"
+  note: "hard: only cable and devices"
+
+- id: lot-004
+  title: "Los 36 Außenanlagen"
+  text: |
+    Pflasterarbeiten Betonsteinpflaster 20 x 10 x 8, Bettung, Tragschicht, Bordsteine, ca. 1.100 m².
+  trade: aussenanlagen
+  city: "Oldenburg"
+
+- id: lot-005
+  title: "LB 025 Estricharbeiten"
+  text: |
+    Estrich auf Trennlage Kellerräume, Verbundestrich Treppenhaus
+  trade: estrich
+  city: "Pforzheim"
+
+- id: lot-006
+  title: "Gewerk 048 Fliesen- und Plattenarbeiten"
+  text: |
+    Feinsteinzeug im Dünnbett, Sockelfliesen, elastische Fugen.
+  trade: fliesen
+  city: "Wetzlar"
+
+- id: lot-007
+  title: "LV 55"
+  text: |
+    Seilaufzug triebwerksraumlos, Kabine 1,10 x 2,10 m, Durchlader, Fahrkorbtüren Edelstahl,
+    EN 81-20/50.
+  trade: aufzug
+  city: "Chemnitz"
+  note: "hard: no 'Aufzug' in the title"
+
+- id: lot-008
+  title: "Kellerwände Sanierputz"
+  text: |
+    Sanierputzsystem WTA auf feuchtem Kellermauerwerk, Spritzbewurf, Grundputz, Sanierputz 2 cm.
+  trade: putz
+  city: "Cottbus"
+  note: "near-miss putz vs rohbau: the damp basement suggests waterproofing, but it is a render system"
+
+- id: lot-009
+  title: "Gewerk Stahlbau – Hallentragwerk"
+  text: |
+    Rahmenbinder HEA 400, Pfetten, Dach- und Wandverbände, Kranbahnträger für 10-t-Brückenkran.
+  trade: stahlbau
+  city: "Dortmund"
+
+- id: lot-010
+  title: "Notdach"
+  text: |
+    Wetterschutzdach Systemgerüst über Dachstuhl, Planen.
+  trade: geruest
+  city: "Schwäbisch Hall"
+  note: "hard (near-miss geruest vs dachdecker): a temporary roof made of scaffold"
+
+- id: lot-011
+  title: "Tore Halle"
+  text: |
+    Sektionaltore 4,0 x 4,5 m elektrisch mit Lichtgitter, Schnelllauftor Kommissionierbereich.
+  trade: fenster
+  city: "Rostock"
+  note: "hard: industrial doors are Metallbau"
+
+- id: lot-012
+  title: "LV 52 Nassräume"
+  text: |
+    Abdichtung im Verbund AIV-F, Feinsteinzeug 30 x 30 R 11 B im Gefälle zu Rinnen,
+    Wandbekleidung Großformat 120 x 60.
+  trade: fliesen
+  city: "Ingolstadt"
+  note: "hard: wet rooms, trade not named"
+
+- id: lot-013
+  title: "Löschwasser"
+  text: |
+    Löschwasserleitung nass, Wandhydranten Typ F, Systemtrenner.
+  trade: sanitaer
+  city: "Göttingen"
+  note: "hard (near-miss sanitaer vs elektro): fire-fighting water lines are water installation"
+
+- id: lot-014
+  title: "Los 20 Estricharbeiten"
+  text: |
+    Zementestrich CT-C25-F4 schwimmend auf Trittschalldämmung, d = 50 mm, ca. 2.100 m².
+  trade: estrich
+  city: "Bielefeld"
+
+- id: lot-015
+  title: "Ladeinfrastruktur"
+  text: |
+    12 Ladepunkte 11 kW, dynamisches Lastmanagement, Zuleitung NYY-J 5x50.
+  trade: elektro
+  city: "Hildesheim"
+  note: "hard: EV chargers"
+
+- id: lot-016
+  title: "Gewerk 300 Erdarbeiten / Baugrube"
+  text: |
+    Oberboden 30 cm abtragen und seitlich lagern. Aushub Baugrube bis -3,20 m u. GOK.
+    Wiederverfüllung Arbeitsraum mit Kiessand 0/32 lagenweise, Verdichtung Dpr >= 98 %.
+  trade: erdarbeiten
+  city: "Münster"
+
+- id: lot-017
+  title: "Los 32 Lüftung und Kälte"
+  text: |
+    RLT-Anlage 12.000 m³/h, Kaltwassersatz 80 kW, Kühlregister, Split-Geräte Serverraum.
+  trade: lueftung
+  city: "Dortmund"
+  note: "mixed: cooling has no own key; ventilation is most of the value"
+
+- id: lot-018
+  title: "KG 430 Raumlufttechnische Anlagen"
+  text: |
+    Lüftung Klassenräume, zentrale Anlage mit WRG.
+  trade: lueftung
+  city: "Jena"
+
+- id: lot-019
+  title: "LV 41"
+  text: |
+    Wärme- und Trittschalldämmung EPS DEO 2 x 40 mm, PE-Folie, Heizestrich 65 mm über Rohr,
+    Belegreifheizen mit Protokoll.
+  trade: estrich
+  city: "Reutlingen"
+  note: "hard: screed build-up described; the heating pipes are already laid by others"
+
+- id: lot-020
+  title: "Ganzglasanlagen Büro"
+  text: |
+    Ganzglas-Trennwände VSG 2x8 mm, Glasschiebetüren mit Softclose, Folierung Sichtschutz.
+  trade: fenster
+  city: "München"
+  note: "near-miss fenster vs trockenbau: glass partitions are glazing/Metallbau, not drywall system walls"
+
+- id: lot-021
+  title: "KG 500 Spielplatz"
+  text: |
+    Spielgeräte, Fallschutz, Einfassungen.
+  trade: aussenanlagen
+  city: "Speyer"
+  note: "hard: playground"
+
+- id: lot-022
+  title: "Los 3 Rohbauarbeiten"
+  text: |
+    Beton- und Stahlbetonarbeiten nach DIN 18331, Mauerarbeiten nach DIN 18330. Wohnhaus mit 5
+    Geschossen, ca. 2.900 m³ Beton C30/37, ca. 310 t Betonstahl B500B.
+  trade: rohbau
+  city: "Köln"
+
+- id: lot-023
+  title: "Los 21 Spachtelarbeiten Q4"
+  text: |
+    Vollflächiges Spachteln der GK-Flächen in Q4, Schleifen; anschließende Beschichtung durch
+    Gewerk Maler.
+  trade: trockenbau
+  city: "Wiesbaden"
+  note: "near-miss trockenbau vs maler: Q4 on plasterboard is the drywall finish; painting follows"
+
+- id: lot-024
+  title: "Hydraulischer Abgleich"
+  text: |
+    Thermostatventile voreinstellbar tauschen, hydr. Abgleich Verfahren B, 220 Heizkörper.
+  trade: heizung
+  city: "Remscheid"
+  note: "hard: no trade word"
+
+- id: lot-025
+  title: "Holzschutz außen"
+  text: |
+    Holzfassade und Dachüberstände anschleifen, Dünnschichtlasur 2 x, Fensterläden lackieren.
+  trade: maler
+  city: "Lüneburg"
+  note: "hard: wood coating"
+
+- id: lot-026
+  title: "Los 18 Innenputz"
+  text: |
+    Kalkgipsputz einlagig 15 mm, Q2, ca. 3.200 m², Eckschutzschienen.
+  trade: putz
+  city: "Chemnitz"
+
+- id: lot-027
+  title: "Los 05 Bauwerksabdichtung erdberührt"
+  text: |
+    Abdichtung erdberührter Kelleraußenwände nach DIN 18533 mit PMBC zweilagig, Hohlkehle,
+    Perimeterdämmung XPS 120 mm, Noppenbahn, Sockelabdichtung bis 30 cm über GOK.
+    Ausführung vor Verfüllung durch Rohbauer, im Rohbau-LV enthalten.
+  trade: rohbau
+  city: "Aachen"
+  note: "near-miss rohbau vs dachdecker: DIN 18336 is filed under dachdecker in trades.yaml, but basement waterproofing before backfill is done by the shell contractor and the text says it is in the Rohbau LV"
+
+- id: lot-028
+  title: "LV 48"
+  text: |
+    Lüftungskanäle verzinkt rechteckig, Wickelfalzrohre, Brandschutzklappen K90, Schalldämpfer.
+  trade: lueftung
+  city: "Nürnberg"
+  note: "hard: ducts and fire dampers"
+
+- id: lot-029
+  title: "Schwimmhalle Beckenauskleidung"
+  text: |
+    Glasmosaik 2 x 2 cm, Überlaufrinne Keramik, Epoxidharzverfugung.
+  trade: fliesen
+  city: "Bad Homburg"
+  note: "hard: pool lining"
+
+- id: lot-030
+  title: "LB 023 Putz- und Stuckarbeiten, WDVS"
+  text: |
+    Außenputz und Innenputz Wohnanlage Haus A-C
+  trade: putz
+  city: "Zwickau"
+
+- id: lot-031
+  title: "LV 03 – Baugrube Tiefgarage"
+  text: |
+    Bodenaushub HB 2, Zwischenlagerung auf Baustelle (Mieten), Verbau nicht Bestandteil dieses LV.
+    Offene Wasserhaltung mit Pumpensümpfen, Vorhaltung 10 Wochen.
+  trade: erdarbeiten
+  city: "Regensburg"
+  note: "hard: trade not named; excavation plus open dewatering (DIN 18305 has no own key) is earthworks"
+
+- id: lot-032
+  title: "Deckenstrahlplatten Halle"
+  text: |
+    Deckenstrahlplatten in Werkhalle, Vor- und Rücklauf, Gas-Dunkelstrahler im Lager.
+  trade: heizung
+  city: "Hof"
+  note: "hard (near-miss heizung vs lueftung): ceiling-mounted, but radiant heating"
+
+- id: lot-033
+  title: "Los 19 WDVS"
+  text: |
+    Wärmedämm-Verbundsystem EPS 160 mm WLS 035, Armierung, Oberputz Silikonharz 2 mm,
+    ca. 1.400 m².
+  trade: putz
+  city: "Gelsenkirchen"
+
+- id: lot-034
+  title: "Los 35 Aufzugsanlagen"
+  text: |
+    Personenaufzug 1.000 kg, 13 Personen, 5 Haltestellen, maschinenraumlos.
+  trade: aufzug
+  city: "Halle (Saale)"
+
+- id: lot-035
+  title: "Los 34 Elektro inkl. Datennetz"
+  text: |
+    Starkstrom, Beleuchtung, Datennetz Cat 7, Klingel- und Sprechanlage.
+  trade: elektro
+  city: "Bergisch Gladbach"
+  note: "mixed: heavy and light current, all DIN 18382"
+
+- id: lot-036
+  title: "Los 14 – Geländeprofilierung"
+  text: |
+    Umlagern von Bodenmassen ca. 1.200 m³ innerhalb des Grundstücks, Herstellen Planum für spätere
+    Stellplatzflächen, Feinplanum ±3 cm. Tragschichten und Pflaster siehe Los 15.
+  trade: erdarbeiten
+  city: "Osnabrück"
+  note: "near-miss erdarbeiten vs aussenanlagen: only soil moved and graded, the surfacing is another lot"
+
+- id: lot-037
+  title: "Los 12 Flachdachabdichtung"
+  text: |
+    Abdichtung nach DIN 18531, Dampfsperre Alu-Bitumen, EPS-Gefälledämmung 2 %, 2-lagig
+    Bitumenschweißbahn, ca. 1.250 m².
+  trade: dachdecker
+  city: "Berlin"
+
+- id: lot-038
+  title: "Los 10 Außentreppe"
+  text: |
+    Fluchttreppe als Stahlkonstruktion über 4 Geschosse, Wangen U 300, Gitterroststufen, Podeste
+    auf Konsolen am Gebäude, Geländer, alles feuerverzinkt, EXC 2.
+  trade: stahlbau
+  city: "Mönchengladbach"
+  note: "near-miss stahlbau vs fenster (Metallbau): a load-bearing escape stair with EXC class; the railing is the smaller part"
+
+- id: lot-039
+  title: "Wandbekleidung Winkelstehfalz"
+  text: |
+    Fassadenbekleidung Titanzink Winkelstehfalz 0,8 mm auf Holzschalung, ca. 210 m²,
+    Anschlüsse an Fenster.
+  trade: klempner
+  city: "Celle"
+  note: "hard: standing-seam wall cladding is sheet-metal work, not Metallbau/facade"
+
+- id: lot-040
+  title: "Los 11 Abfangkonstruktion"
+  text: |
+    Abfangträger 2x HEB 300 für Wanddurchbruch im Bestand, Stahlstützen HEB 160, Kopf- und
+    Fußplatten, Montage inkl. Unterstopfen mit Vergussmörtel, statische Nachweise liegen vor.
+  trade: stahlbau
+  city: "Hamburg"
+  note: "near-miss stahlbau vs rohbau: in refurbishment the shell contractor often sets beams, but this lot is steel fabrication and erection only"
+
+- id: lot-041
+  title: "Los 35 Bodenbeschichtung Tiefgarage"
+  text: |
+    Oberflächenschutzsystem OS 8, Epoxidharz, Abstreuung, Markierung der Stellplätze.
+  trade: maler
+  city: "Frankfurt am Main"
+  note: "near-miss maler vs bodenbelag/estrich: a resin coating; filed under Maler (Beschichtung)"
+
+- id: lot-042
+  title: "Los 31 Sanitärinstallation"
+  text: |
+    Trinkwasser-, Abwasseranlagen und Sanitärobjekte nach DIN 18381.
+  trade: sanitaer
+  city: "Potsdam"
+
+- id: lot-043
+  title: "Sporthalle Bodenbelag"
+  text: |
+    Sportboden flächenelastisch mit PU-Nutzschicht, Linierung nach Spielfeldplan.
+  trade: bodenbelag
+  city: "Bochum"
+  note: "hard (near-miss bodenbelag vs maler): sports floor, nearest is Bodenbelag"
+
+- id: lot-044
+  title: "KG 330/340 Tragkonstruktion"
+  text: |
+    Stahlbetonwände d = 20 cm, Ortbetondecken d = 22 cm, Schalung Sichtbetonklasse SB 3,
+    Aussparungen nach TGA-Schlitz- und Durchbruchsplan.
+  trade: rohbau
+  city: "Ludwigshafen"
+  note: "hard: DIN 276 KG 330 (Außenwände) and 340 (Innenwände) also contain finishes; here only concrete"
+
+- id: lot-045
+  title: "Los 27 Natursteinbelag Treppenhaus"
+  text: |
+    Granit geflammt 3 cm, Tritt- und Setzstufen, Podestplatten im Mörtelbett.
+  trade: fliesen
+  city: "Regensburg"
+  note: "hard: stone work has no own key; slabs laid in mortar bed go to Fliesen- und Plattenarbeiten"
+
+- id: lot-046
+  title: "Malerarb. Treppenhaus"
+  text: |
+    Treppenhaus 5 Etagen streichen
+  trade: maler
+  city: "Fürth"
+
+- id: lot-047
+  title: "LV 13"
+  text: |
+    Kunststoffbahn FPO 1,8 mm mechanisch befestigt, PIR-Dämmung 160 mm, Attikaanschlüsse,
+    Notüberläufe, Wartungswege mit Plattenstreifen.
+  trade: dachdecker
+  city: "Hamburg"
+  note: "hard: single-ply membrane roof, trade not named"
+
+- id: lot-048
+  title: "Pos 4.1 Bühnenkonstruktion"
+  text: |
+    Arbeitsbühne im Technikraum aus Walzprofilen, Gitterrost 30/30, Nutzlast 5 kN/m²,
+    Zugangstreppe mit Handlauf.
+  trade: stahlbau
+  city: "Salzgitter"
+  note: "hard: platform for loads is steelwork; the stair and handrail are minor"
+
+- id: lot-049
+  title: "Gasleitung"
+  text: |
+    Gas-Innenleitung vom Hausanschluss bis Heizraum, Druckprobe nach DVGW G 600.
+  trade: sanitaer
+  city: "Wolfsburg"
+  note: "hard (near-miss sanitaer vs heizung): gas installations are in DIN 18381"
+
+- id: lot-050
+  title: "LB 080 Straßen, Wege, Plätze"
+  text: |
+    Hofflächen und Zuwegung
+  trade: aussenanlagen
+  city: "Kaiserslautern"
+
+- id: lot-051
+  title: "Los 26 Bodenbelage PVC"
+  text: |
+    Homogener PVC-Belag in Patientenzimmern, Hohlkehlsockel.
+  trade: bodenbelag
+  city: "Freiburg im Breisgau"
+
+- id: lot-052
+  title: "Sauberlaufzonen"
+  text: |
+    Aluprofilmatten in vorhandene Wannen, Sauberlaufmatten textil im Windfang.
+  trade: bodenbelag
+  city: "Mainz"
+  note: "hard: entrance mats"
+
+- id: lot-053
+  title: "LV 46"
+  text: |
+    Vorwandelemente WC, Waschtische, Edelstahlrohr 1.4521 Pressfitting, Zirkulation,
+    Strangregulierventile.
+  trade: sanitaer
+  city: "Mannheim"
+  note: "hard: no trade word"
+
+- id: lot-054
+  title: "Pos.-Gr. 3 Wände"
+  text: |
+    CW 50 einfach beplankt mit GKFI in Feuchträumen, Kantenschutz, Fugen gespachtelt Q2.
+  trade: trockenbau
+  city: "Augsburg"
+  note: "hard: only profile and board codes"
+
+- id: lot-055
+  title: "Los 28 Sichtestrich"
+  text: |
+    Zementestrich geschliffen und imprägniert als Nutzbelag, Körnung sichtbar (Terrazzo-Optik).
+  trade: estrich
+  city: "Münster"
+  note: "near-miss estrich vs bodenbelag: the screed itself is the finished floor"
+
+- id: lot-056
+  title: "Los 05.2 Dachterrasse"
+  text: |
+    Abdichtung Dachterrasse über beheiztem Raum, Anschlüsse an Türschwellen mit Flüssigkunststoff,
+    Stelzlager und Betonplatten 50x50 als Belag.
+  trade: dachdecker
+  city: "Erlangen"
+  note: "near-miss dachdecker vs fliesen/aussenanlagen: the pavers are minor; the waterproofing is the work"
+
+- id: lot-057
+  title: "Pos.-Gr. 01 Erdbau"
+  text: |
+    Aushub Streifen- u. Einzelfundamente, BK 3-5, ca. 140 m³ inkl. Abfuhr
+  trade: erdarbeiten
+  city: "Kassel"
+
+- id: lot-058
+  title: "Los 15 Metallbauarbeiten"
+  text: |
+    Pfosten-Riegel-Fassade Aluminium, Eingangsanlage mit automatischer Schiebetür, Brandschutztüren T30.
+  trade: fenster
+  city: "Frankfurt am Main"
+
+- id: lot-059
+  title: "Brandschutzbeschichtung"
+  text: |
+    Reaktive Brandschutzbeschichtung R 30 auf Stahlträgern, Trockenschichtdicke nach abZ,
+    Deckbeschichtung.
+  trade: maler
+  city: "Düren"
+  note: "near-miss maler vs stahlbau/trockenbau: intumescent paint is a coating job"
+
+- id: lot-060
+  title: "Gewerk Rückbau / Entkernung"
+  text: |
+    Entkernen bis auf Rohbau, Demontage Innenwände, Bodenbeläge, abgehängte Decken.
+  trade: abbruch
+  city: "Mannheim"
+
+- id: lot-061
+  title: "Los 30 Untergrund und Designbelag"
+  text: |
+    Schleifen, Grundieren, Ausgleichsspachtelmasse 3–5 mm, anschließend Designbelag verklebt,
+    ca. 900 m².
+  trade: bodenbelag
+  city: "Erfurt"
+  note: "near-miss bodenbelag vs estrich: levelling compound is preparation, the finish carries the value"
+
+- id: lot-062
+  title: "KG 461 Aufzugsanlagen"
+  text: |
+    2 Aufzüge Wohnhaus
+  trade: aufzug
+  city: "Magdeburg"
+
+- id: lot-063
+  title: "Los 8 Schiefer"
+  text: |
+    Altdeutsche Deckung Moselschiefer auf Vollschalung mit Vordeckung, Gaubenwangen mit Schiefer
+    bekleiden.
+  trade: dachdecker
+  city: "Koblenz"
+  note: "hard: slate covering, only material named"
+
+- id: lot-064
+  title: "Los 37 Holzböden Bestand"
+  text: |
+    Vorh. Dielenboden aufarbeiten, schleifen, ölen, Fehlstellen ergänzen.
+  trade: bodenbelag
+  city: "Lübeck"
+  note: "near-miss bodenbelag vs tischler/zimmerer: refinishing floorboards is parquet/floor work"
+
+- id: lot-065
+  title: "MP Q3 Treppenhaus"
+  text: |
+    Maschienenputz Q3 Treppenhauswände, Kantenschutz, Putzabschlussprofile
+  trade: putz
+  city: "Bremerhaven"
+  note: "hard (typo 'Maschienenputz'): terse"
+
+- id: lot-066
+  title: "Küchenabluft"
+  text: |
+    Lüftungsdecke Großküche mit Aerosolabscheidern, Abluftventilator über Dach, Zuluftnachströmung.
+  trade: lueftung
+  city: "Konstanz"
+  note: "hard: kitchen extract"
+
+- id: lot-067
+  title: "LV 02"
+  text: |
+    Arbeitsgerüst nach DIN EN 12811, Konsolen innen, Schutznetze, Gebrauchsüberlassung je Woche.
+  trade: geruest
+  city: "Gelsenkirchen"
+  note: "hard: no trade in the title"
+
+- id: lot-068
+  title: "Glasaufzug Bestand"
+  text: |
+    Aufzug im Stahl-Glas-Schacht, Schachtgerüst Stahl und Verglasung durch Aufzugsbauer.
+  trade: aufzug
+  city: "Gera"
+  note: "near-miss aufzug vs stahlbau/fenster: the steel and glass shaft is supplied by the lift maker"
+
+- id: lot-069
+  title: "LV 39"
+  text: |
+    Metallständerwände UW/CW 100, F 90-A, Revisionsöffnungen, Installationswände für
+    Vorwandelemente, Aussteifungen für Lasten.
+  trade: trockenbau
+  city: "Potsdam"
+  note: "hard: stud partitions, trade not named; the toilet frames themselves are Sanitär"
+
+- id: lot-070
+  title: "Los 15 Anschlüsse an aufgehende Bauteile"
+  text: |
+    Sockelabdichtung an aufgehenden Wänden und Attika mit Bitumenbahn, Höhe 15 cm über OK Belag,
+    Klemmprofile, Abdichtung der Lichtkuppel-Aufsatzkränze.
+  trade: dachdecker
+  city: "Wuppertal"
+  note: "near-miss dachdecker vs rohbau: 'Sockelabdichtung' here is the upstand of a flat roof, so roofer"
+
+- id: lot-071
+  title: "Los 02 – Erdarbeiten"
+  text: |
+    Baugrubenaushub Homogenbereiche B1/B2 nach DIN 18300, ca. 4.800 m³, inkl. Laden, Transport und
+    Entsorgung auf Deponie DK 0, Böschungsneigung 60°.
+  trade: erdarbeiten
+  city: "Hannover"
+
+- id: lot-072
+  title: "Los 7 Fertigteile"
+  text: |
+    Stb-Fertigteilstützen, Spannbeton-Hohldielen d = 26,5 cm, Fugenverguss, Montage mit Autokran,
+    Parkhaus 3 Ebenen.
+  trade: rohbau
+  city: "Kiel"
+  note: "near-miss rohbau vs stahlbau: assembled by crane like a steel frame, but precast concrete"
+
+- id: lot-073
+  title: "WC-Abluft innenliegend"
+  text: |
+    Einzelraumlüfter nach DIN 18017-3, Hauptleitung Wickelfalz, Brandschutz Deckenschotts.
+  trade: lueftung
+  city: "Paderborn"
+  note: "hard (near-miss lueftung vs sanitaer): bathroom extract fans"
+
+- id: lot-074
+  title: "Los 17 Trockenbauarbeiten"
+  text: |
+    Ständerwände CW 75 doppelt beplankt GKB 12,5 mm, Mineralwolle 60 mm, Q2, ca. 1.900 m².
+  trade: trockenbau
+  city: "Mainz"
+
+- id: lot-075
+  title: "Carport"
+  text: |
+    Doppelcarport in Holzbauweise, Stützen BSH 14/14 auf Stahlfüßen, Pfetten, Flachdach mit
+    EPDM-Folie, Regenrinne.
+  trade: zimmerer
+  city: "Ravensburg"
+  note: "mixed: timber structure with a small membrane roof and gutter; most value is the timber"
+
+- id: lot-076
+  title: "LV 42"
+  text: |
+    Fernwärmeübergabestation 250 kW, Plattenwärmetauscher, Differenzdruckregler, Wärmemengenzähler.
+  trade: heizung
+  city: "Gotha"
+  note: "hard: district heating substation"
+
+- id: lot-077
+  title: "Los 24 Malerarbeiten"
+  text: |
+    Dispersionsanstrich Wände und Decken, Nassabriebklasse 2, ca. 8.500 m².
+  trade: maler
+  city: "Nürnberg"
+
+- id: lot-078
+  title: "Teeküchen"
+  text: |
+    Teeküchen mit Unterschränken, Arbeitsplatten HPL, Einbau Kühlschrank und Spüle (Anschluss bauseits).
+  trade: tischler
+  city: "Oldenburg"
+  note: "hard: kitchens; plumbing connection excluded"
+
+- id: lot-079
+  title: "Brandschutzbekleidung Stahlbau"
+  text: |
+    Bekleidung von Stahlstützen HEB mit Brandschutzplatten F 90, Kastenbekleidung 3-seitig,
+    Unterkonstruktion Stahlblechwinkel.
+  trade: trockenbau
+  city: "Braunschweig"
+  note: "hard: board encasement is Trockenbau (not Stahlbau, not intumescent paint)"
+
+- id: lot-080
+  title: "Brandmeldeanlage"
+  text: |
+    BMA nach DIN 14675, automatische Melder, Aufschaltung Feuerwehr, Feuerwehrbedienfeld.
+  trade: elektro
+  city: "Wuppertal"
+  note: "hard: fire alarm is Sicherheitstechnik"
+
+- id: lot-081
+  title: "Einfriedung"
+  text: |
+    Doppelstabmattenzaun 1,80 m, Tore, Pfosten in Beton.
+  trade: aussenanlagen
+  city: "Hamburg"
+  note: "near-miss aussenanlagen vs fenster: fencing"
+
+- id: lot-082
+  title: "KG 410 Abwasser-, Wasser-, Gasanlagen"
+  text: |
+    Wohnanlage 48 WE, Trinkwasser, Abwasser, Objekte.
+  trade: sanitaer
+  city: "Bremen"
+
+- id: lot-083
+  title: "Los 32 Wände Bestand"
+  text: |
+    Altanstriche abwaschen, Risse schließen, Teilflächen spachteln, Raufaser tapezieren und streichen.
+  trade: maler
+  city: "Kassel"
+  note: "near-miss maler vs putz/trockenbau: small filling only; wallpaper and paint dominate"
+
+- id: lot-084
+  title: "Los 13 Klempnerarbeiten"
+  text: |
+    Dachentwässerung Titanzink: Hängedachrinnen halbrund Zuschnitt 333, Fallrohre DN 100,
+    Standrohre Guss.
+  trade: klempner
+  city: "Würzburg"
+
+- id: lot-085
+  title: "Los 13 Dachdecker- und Klempnerarbeiten"
+  text: |
+    Neueindeckung Tondachziegel ca. 650 m² inkl. Lattung; Dachrinnen und Fallrohre Titanzink.
+  trade: dachdecker
+  city: "Hildesheim"
+  note: "mixed: roofing plus gutters; the covering is most of the value"
+
+- id: lot-086
+  title: "Fassadenanstrich"
+  text: |
+    Reinigen der Fassade mit Hochdruck, Grundierung, 2 x Silikonharzfarbe; Gerüst bauseits.
+  trade: maler
+  city: "Esslingen"
+  note: "hard: scaffold mentioned but excluded"
+
+- id: lot-087
+  title: "Los 27 Tischlerarbeiten"
+  text: |
+    Innentüren Röhrenspan, Holzumfassungszargen, Drückergarnitur Edelstahl, ca. 140 Stück.
+  trade: tischler
+  city: "Göttingen"
+
+- id: lot-088
+  title: "Los 32 Lüftungsanlagen"
+  text: |
+    RLT-Gerät 8.000 m³/h mit WRG, Kanalnetz, Volumenstromregler.
+  trade: lueftung
+  city: "Bonn"
+
+- id: lot-089
+  title: "LB 020 Dachdeckungsarbeiten"
+  text: |
+    Betondachsteine, Unterdeckbahn, Konterlattung, Ortgangsteine, ca. 920 m²
+  trade: dachdecker
+  city: "Saarbrücken"
+
+- id: lot-090
+  title: "Gewerbeküche Entwässerung"
+  text: |
+    Fettabscheider NS 4 freistehend, Hebeanlage Doppelpumpe, Probenahme.
+  trade: sanitaer
+  city: "Fürstenfeldbruck"
+  note: "hard: separator and lifting plant"
+
+- id: lot-091
+  title: "Entrauchung TG"
+  text: |
+    Maschinelle Rauchabzugsanlage, Entrauchungsventilatoren F400, Strahlventilatoren,
+    Zuluftnachströmung.
+  trade: lueftung
+  city: "Krefeld"
+  note: "hard (near-miss lueftung vs elektro): mechanical smoke extraction is air handling"
+
+- id: lot-092
+  title: "Los 4 Maurerabeiten Bestand"
+  text: |
+    Schließen von Wandöffnungen mit Kalksandstein, Herstellen neuer Wanddurchbrüche bis 2,0 m
+    mit Abfangung und Stahlsturz 2x IPE 160, beidseitig unterstopfen.
+  trade: rohbau
+  city: "Bochum"
+  note: "hard (typo 'Maurerabeiten'): new openings with lintels in existing masonry are Rohbau in a refurbishment"
+
+- id: lot-093
+  title: "LV 05 – Tiefgarage"
+  text: |
+    WU-Beton Bodenplatte d = 35 cm als Weiße Wanne nach WU-Richtlinie, Fugenbleche,
+    Injektionsschläuche, Wände C30/37 XC4/XD3, Rampenneigung 15 %.
+  trade: rohbau
+  city: "Stuttgart"
+  note: "hard: only 'WU-Beton', 'Weiße Wanne' and exposure classes say it is concrete structure work"
+
+- id: lot-094
+  title: "Trockenbau DIN 18340"
+  text: |
+    GK-Wände, Vorsatzschalen, Deckenbekleidungen nach Plan
+  trade: trockenbau
+  city: "Bielefeld"
+
+- id: lot-095
+  title: "Hzg. Kesseltausch"
+  text: |
+    Demontage Ölkessel, Öltanks reinigen und entsorgen, neuer Pelletkessel 60 kW mit
+    Raumaustragung.
+  trade: heizung
+  city: "Zweibrücken"
+  note: "mixed: removal of oil tanks, but a new boiler is the value"
+
+- id: lot-096
+  title: "Trinkwassererwärmung"
+  text: |
+    Frischwasserstation 60 l/min, Zirkulationspumpe, thermische Desinfektion, Legionellenschutz.
+  trade: sanitaer
+  city: "Augsburg"
+  note: "near-miss sanitaer vs heizung: heated by the heating system, but it is potable hot water"
+
+- id: lot-097
+  title: "Los 2 Erd- und Verbauarbeiten"
+  text: |
+    Trägerbohlwand (Berliner Verbau) ca. 380 m² mit einer Ankerlage; Aushub Baugrube ca. 6.500 m³
+    inkl. Abtransport und Entsorgung; Rückbau Verbau nach Verfüllung.
+  trade: erdarbeiten
+  city: "Berlin"
+  note: "mixed: shoring (no own key) plus a large excavation; most of the value is the excavation"
+
+- id: lot-098
+  title: "Los 4 Sonnenschutz"
+  text: |
+    Außenliegende Raffstores 80 mm, Führungsschienen, Motor 230 V, Anschluss bauseits durch Elektro.
+  trade: fenster
+  city: "Kaiserslautern"
+  note: "hard: sun shading has no own key; filed under Fenster as the nearest (part of the window opening)"
+
+- id: lot-099
+  title: "Los 3 Holzbalkendecke Sanierung"
+  text: |
+    Schadhafte Balkenköpfe anlaschen, Austausch einzelner Deckenbalken 16/22, Einschub und
+    Lehmschlag erneuern, Holzschutz nach DIN 68800.
+  trade: zimmerer
+  city: "Görlitz"
+  note: "hard: repair of timber joists in an old building"
+
+- id: lot-100
+  title: "Grundleitungen"
+  text: |
+    KG-Rohr DN 150 unter Bodenplatte inkl. Formteile, Revisionsschacht, Rückstauverschluss.
+  trade: sanitaer
+  city: "Hamburg"
+  note: "near-miss sanitaer vs erdarbeiten: the pipes themselves are drainage installation"
+
+- id: lot-101
+  title: "Raumgerüst Kirche"
+  text: |
+    Raumgerüst im Kirchenschiff Höhe 18 m, Beläge in 3 Ebenen für Restauratoren.
+  trade: geruest
+  city: "Erfurt"
+  note: "hard: interior scaffold"
+
+- id: lot-102
+  title: "Los 24 Systemboden"
+  text: |
+    Doppelboden Calciumsulfatplatten 600 x 600 mm, Stützenhöhe 300 mm, Serverraum, Rampe.
+  trade: trockenbau
+  city: "Hannover"
+  note: "near-miss trockenbau vs estrich/bodenbelag: raised access floors are in DIN 18340"
+
+- id: lot-103
+  title: "Los 18 Fentser Bestand"
+  text: |
+    Austausch der Fenster im Altbau, Holzfenster mit glasteilenden Sprossen nach Vorgabe
+    Denkmalpflege, Ausbau und Entsorgung Altfenster.
+  trade: fenster
+  city: "Weimar"
+  note: "near-miss fenster vs tischler (typo 'Fentser'): a joiner may make them, but exterior windows are the Fenster trade"
+
+- id: lot-104
+  title: "Los 22 Industrieboden"
+  text: |
+    Hartstoffestrich auf Stb-Bodenplatte frisch in frisch, Oberfläche maschinell geglättet,
+    Fugen schneiden und verfüllen.
+  trade: estrich
+  city: "Wolfsburg"
+  note: "near-miss estrich vs rohbau/bodenbelag: the slab is by others; the wearing layer is a screed"
+
+- id: lot-105
+  title: "LB 031 Metallbau / Schlosserarbeiten"
+  text: |
+    Stahltüren, Gitterroste, Kellerlichtschachtabdeckungen
+  trade: fenster
+  city: "Jena"
+
+- id: lot-106
+  title: "HLS-Installation Kita"
+  text: |
+    Sanitär: 30 Objekte, Trinkwasser, Abwasser; Heizung: Anschluss Fernwärme, 12 Heizkörper;
+    Abluft WC.
+  trade: sanitaer
+  city: "Fürth"
+  note: "mixed (HLS): sanitary is the largest share in a Kita with 30 fixtures"
+
+- id: lot-107
+  title: "Los 15 Wegebau"
+  text: |
+    Planum herstellen, Frostschutzschicht, Asphalttragdeckschicht Gehweg.
+  trade: aussenanlagen
+  city: "Osnabrück"
+  note: "near-miss aussenanlagen vs erdarbeiten: grading is minor; surfacing is the value"
+
+- id: lot-108
+  title: "Los 23 Fliesenarbeiten"
+  text: |
+    Wandfliesen Steingut 30 x 60, Bodenfliesen Feinsteinzeug 60 x 60 R 10, Verbundabdichtung in
+    Duschbereichen.
+  trade: fliesen
+  city: "Augsburg"
+
+- id: lot-109
+  title: "Treppenpodeste"
+  text: |
+    CT 45 mm im Verbund auf Podesten, Haftbrücke
+  trade: estrich
+  city: "Hamm"
+  note: "hard: terse"
+
+- id: lot-110
+  title: "Modernisierung"
+  text: |
+    Steuerung und Antrieb tauschen, Schachttüren erneuern, Notrufsystem.
+  trade: aufzug
+  city: "Duisburg"
+  note: "hard: no hint except the lift parts"
+
+- id: lot-111
+  title: "Holzbau – Los 4"
+  text: |
+    Holzrahmenbau-Außenwände vorgefertigt, Brettsperrholzdecken (BSP) 5-lagig, Montage inkl.
+    Verbindungsmittel und Brandschutzanforderungen nach Holzbau-Richtlinie.
+  trade: zimmerer
+  city: "Rosenheim"
+
+- id: lot-112
+  title: "Los 7 DG-Ausbau"
+  text: |
+    Zwischensparrendämmung Mineralwolle 200 mm, Dampfbremse feuchtevariabel luftdicht verklebt,
+    Lattung, GK-Bekleidung der Dachschrägen, Spachtelung Q2.
+  trade: trockenbau
+  city: "Würzburg"
+  note: "near-miss trockenbau vs zimmerer: insulation and vapour control between rafters ending in GK boards"
+
+- id: lot-113
+  title: "Los 25 Bodenbelagsarbeiten"
+  text: |
+    Linoleum 2,5 mm, Sockelleisten, Nähte verschweißen, ca. 1.300 m².
+  trade: bodenbelag
+  city: "Kiel"
+
+- id: lot-114
+  title: "Balkonbeläge"
+  text: |
+    Keramikplatten 2 cm auf Stelzlagern, Balkone 1.–4. OG, Randprofile.
+  trade: fliesen
+  city: "Lindau"
+  note: "near-miss fliesen vs aussenanlagen/dachdecker: ceramic slabs on balconies, no waterproofing in the lot"
+
+- id: lot-115
+  title: "Betonsägearbeiten"
+  text: |
+    Wandsägen für neue Türöffnungen 1,0 x 2,1 m, Seilsägen Fundament, Kernbohrungen.
+  trade: abbruch
+  city: "Nürnberg"
+  note: "near-miss abbruch vs rohbau: sawing only; no lintels or new concrete"
+
+- id: lot-116
+  title: "Fensterbänke innen"
+  text: |
+    Innenfensterbänke Holzwerkstoff HPL beschichtet, 25 mm, ca. 180 Stück.
+  trade: tischler
+  city: "Saarbrücken"
+  note: "near-miss tischler vs fenster/klempner: inside sills are joinery"
+
+- id: lot-117
+  title: "LV 01 Baufeldfreimachung Boden"
+  text: |
+    Aushub und Entsorgung belasteter Auffüllungen Z 1.2 / Z 2 nach LAGA M 20, Haufwerksbeprobung je
+    500 m³, Aussortieren von Bauschuttanteilen, ca. 3.100 m³. Gebäude bereits rückgebaut.
+  trade: erdarbeiten
+  city: "Duisburg"
+  note: "near-miss erdarbeiten vs abbruch: 'Baufeldfreimachung' but no structure is removed, only contaminated soil"
+
+- id: lot-118
+  title: "Pos. 7 Blech"
+  text: |
+    Gesimsabdeckungen Kupfer, Zuschnitt 400, Wasserspeier, Dehnungsausgleicher
+  trade: klempner
+  city: "Heilbronn"
+  note: "hard: terse, sheet-metal only"
+
+- id: lot-119
+  title: "Teilrückbau Dach"
+  text: |
+    Abtragen Dacheindeckung Faserzement (asbesthaltig), Lattung, Entsorgung.
+  trade: abbruch
+  city: "Detmold"
+  note: "near-miss abbruch vs dachdecker: removal only, no new covering"
+
+- id: lot-120
+  title: "Begrünung Tiefgaragendach"
+  text: |
+    Intensivbegrünung auf TG-Decke (Abdichtung vorhanden), Substrat 60 cm, Bäume, Wege.
+  trade: aussenanlagen
+  city: "Mainz"
+  note: "near-miss aussenanlagen vs dachdecker: landscaping on an existing waterproofed deck"
+
+- id: lot-121
+  title: "KG 420 Wärmeversorgungsanlagen"
+  text: |
+    Luft/Wasser-Wärmepumpe 45 kW, Pufferspeicher 1.000 l, Fußbodenheizung.
+  trade: heizung
+  city: "Kassel"
+
+- id: lot-122
+  title: "LV 60"
+  text: |
+    Schottertragschicht 0/32 d = 30 cm, Pflasterbettung Splitt 2/5, Natursteinpflaster Granit 9/11,
+    Fugenverguss.
+  trade: aussenanlagen
+  city: "Weimar"
+  note: "hard: paving by layers"
+
+- id: lot-123
+  title: "LV 34"
+  text: |
+    Glasvlies tapezieren, zweimal beschichten mit Latexfarbe, Flure und Treppenräume.
+  trade: maler
+  city: "Ludwigsburg"
+  note: "hard: only what is done"
+
+- id: lot-124
+  title: "PV-Anlage Flachdach"
+  text: |
+    PV 99 kWp, Aufständerung Ost/West ballastiert, Wechselrichter, DC-Verkabelung.
+  trade: elektro
+  city: "Heilbronn"
+  note: "near-miss elektro vs dachdecker: on the roof, but no roof work beyond ballast"
+
+- id: lot-125
+  title: "Gewerk 053 Parkettarbeiten"
+  text: |
+    Eiche Stabparkett 22 mm, Fischgrät, geschliffen und geölt.
+  trade: bodenbelag
+  city: "Düsseldorf"
+
+- id: lot-126
+  title: "HLS Los 31"
+  text: |
+    Heizung und Sanitär Einfamilienhaus: Wärmepumpe, Heizkörperanbindung, Fußbodenheizung EG;
+    Austausch von 2 WC und 1 Waschtisch.
+  trade: heizung
+  city: "Lörrach"
+  note: "mixed (HLS): heating is most of the value"
+
+- id: lot-127
+  title: "Dachfang"
+  text: |
+    Fanggerüst an Traufe, Seitenschutz, Treppenturm.
+  trade: geruest
+  city: "Augsburg"
+  note: "hard: catch scaffold"
+
+- id: lot-128
+  title: "Los 01 Gerüstarbeiten"
+  text: |
+    Fassadengerüst Lastklasse 3, Breitenklasse W06, ca. 2.400 m², Gebrauchsüberlassung 12 Wochen.
+  trade: geruest
+  city: "Rostock"
+
+- id: lot-129
+  title: "Los 15 Gaube"
+  text: |
+    Neue Schleppgaube b = 3,20 m, Wechsel im Sparrenfeld, Gaubenwangen in Holzständerbauweise,
+    Schalung für spätere Deckung.
+  trade: zimmerer
+  city: "Bamberg"
+  note: "hard: dormer framing; the covering is not part of it"
+
+- id: lot-130
+  title: "Los 6 Gussasphalt"
+  text: |
+    Gussasphaltestrich AS-IC10 d = 30 mm in Werkstatt, abgesandet.
+  trade: estrich
+  city: "Bremen"
+  note: "hard: mastic asphalt screed (could be mistaken for road works)"
+
+- id: lot-131
+  title: "Los 8 Stahlbau inkl. Trapezdach"
+  text: |
+    Hallentragwerk ca. 42 t S235/S355 sowie Stahltrapezprofil-Dachschale 135/310, 0,88 mm,
+    auf Pfetten verschraubt. Dämmung und Abdichtung siehe Los Dach.
+  trade: stahlbau
+  city: "Hagen"
+  note: "mixed: steel frame plus trapezoidal deck; the frame is most of the value, waterproofing is another lot"
+
+- id: lot-132
+  title: "ELT – Los 12"
+  text: |
+    Elektro komplett nach Raumbuch
+  trade: elektro
+  city: "Bayreuth"
+
+- id: lot-133
+  title: "Gewerk 034 Maler- und Lackierarbeiten"
+  text: |
+    Lackieren von Stahlzargen und Heizkörpern, Kunstharzlack seidenmatt.
+  trade: maler
+  city: "Lübeck"
+
+- id: lot-134
+  title: "Dachentwässerung Druckströmung"
+  text: |
+    Unterdruck-Dachentwässerung, Dachabläufe, HD-PE-Leitungen unter Decke, Notentwässerung.
+  trade: sanitaer
+  city: "Neu-Ulm"
+  note: "near-miss sanitaer vs klempner: siphonic drainage inside the building is Sanitär, not gutters"
+
+- id: lot-135
+  title: "Los 29 Holztreppen und Innentüren"
+  text: |
+    Eingestemmte Holztreppen Buche über 3 Geschosse, dazu 36 Innentüren.
+  trade: tischler
+  city: "Kiel"
+  note: "mixed: stairs and doors, both joinery"
+
+- id: lot-136
+  title: "Garten- und Landschaftsbau"
+  text: |
+    Pflanzarbeiten, Rasen, Bäume StU 18–20, Fertigstellungspflege.
+  trade: aussenanlagen
+  city: "Heidelberg"
+
+- id: lot-137
+  title: "Wohnungslüftung"
+  text: |
+    Dezentrale Lüftungsgeräte mit WRG paarweise, Außenwandkernbohrungen DN 160, 64 Geräte.
+  trade: lueftung
+  city: "Erlangen"
+  note: "near-miss lueftung vs rohbau: core drilling is minor"
+
+- id: lot-138
+  title: "Los 14 Steildach"
+  text: |
+    Betondachsteine, Kehlen mit Kehlblech Titanzink, Schneefanggitter, Einbau von 6
+    Dachflächenfenstern.
+  trade: dachdecker
+  city: "Konstanz"
+  note: "near-miss dachdecker vs klempner: valley sheets are sheet metal but the covering dominates"
+
+- id: lot-139
+  title: "Los 40 Innentüren T30 Holz"
+  text: |
+    T30-Holztüren mit abZ, Holzzargen, Obentürschließer, Fluchttürbeschläge.
+  trade: tischler
+  city: "Ulm"
+  note: "near-miss tischler vs fenster: fire-rated doors, but wooden, so Tischler"
+
+- id: lot-140
+  title: "Los 1 Bodenverbesserung"
+  text: |
+    Bodenaustausch unter Bodenplatte, 0,8 m Schottertragschicht 0/45 lagenweise einbauen,
+    Geotextil GRK 3, Plattendruckversuche Ev2 >= 100 MN/m², ca. 2.600 m².
+  trade: erdarbeiten
+  city: "Magdeburg"
+  note: "hard: gravel and Ev2 tests sound like road building, but it is a load-bearing pad under the building"
+
+- id: lot-141
+  title: "Gewerk 060 Innenausbau Tischler"
+  text: |
+    Einbauschränke, Garderoben, Thekenanlage Empfang.
+  trade: tischler
+  city: "Wiesbaden"
+
+- id: lot-142
+  title: "Los 7 Geländer"
+  text: |
+    Treppengeländer Flachstahl, Handlauf Edelstahl Ø 42, Absturzsicherungen an französischen
+    Balkonen, Zulassung VSG.
+  trade: fenster
+  city: "Lübeck"
+  note: "hard: railings are Metallbau"
+
+- id: lot-143
+  title: "Los 24 Maler inkl. Kleinflächen Bodenbelag"
+  text: |
+    Malerarbeiten Schule ca. 6.000 m², zusätzlich Teppichboden in 2 Räumen ca. 60 m².
+  trade: maler
+  city: "Solingen"
+  note: "mixed: a little floor covering; painting is almost all the value"
+
+- id: lot-144
+  title: "Los 16 Regenentwässerung"
+  text: |
+    Vorgehängte Rinnen, Fallrohre bis Standrohr, Regenrohrklappen; Anschluss an Grundleitung
+    durch Gewerk Sanitär.
+  trade: klempner
+  city: "Bocholt"
+  note: "near-miss klempner vs sanitaer: outside gutters and downpipes up to the standpipe are Klempner"
+
+- id: lot-145
+  title: "Plattformlift"
+  text: |
+    Senkrechtplattformaufzug barrierefrei, Förderhöhe 1,20 m, Rollstuhlnutzung.
+  trade: aufzug
+  city: "Kempten"
+  note: "hard: platform lift"
+
+- id: lot-146
+  title: "Los 9 Zimmererarbeiten"
+  text: |
+    Dachstuhl als Pfettendach, KVH C24 ca. 18 m³, Sparren 8/22, inkl. Abbund und Aufrichten.
+  trade: zimmerer
+  city: "Freiburg im Breisgau"
+
+- id: lot-147
+  title: "VE 2 – Beton- und Stahlbetonbau"
+  text: |
+    Ortbetondecken, Wände, Stützen, Bewehrung, Schalung. Bürogebäude 4 OG + UG.
+  trade: rohbau
+  city: "Leipzig"
+
+- id: lot-148
+  title: "Gewerk 039 Trockenbau / Abhangdecken"
+  text: |
+    Mineralfaser-Rasterdecken 625 x 625, GK-Decken Q3 in Fluren, Revisionsklappen.
+  trade: trockenbau
+  city: "Leverkusen"
+
+- id: lot-149
+  title: "Los 20 Trockenputz"
+  text: |
+    Wandbekleidung mit Gipsplatten im Ansetzverfahren auf Mauerwerk, Spachtelung Q3.
+  trade: trockenbau
+  city: "Gera"
+  note: "near-miss trockenbau vs putz: 'Trockenputz' is boards glued to the wall, so drywall"
+
+- id: lot-150
+  title: "Los 18 Verwahrungen"
+  text: |
+    Kaminverwahrung Walzblei, Mauerabdeckungen, Ortgang- und Traufbleche Zink vorbewittert.
+  trade: klempner
+  city: "Schwerin"
+  note: "hard: flashings only"
+
+- id: lot-151
+  title: "Los 10 Aufdopplung und Dachschalung"
+  text: |
+    Aufdopplung der vorh. Sparren um 8 cm, Zwischensparrendämmung, Rauspundschalung 24 mm.
+    Unterdeckbahn, Konterlattung und Deckung siehe Los Dachdecker.
+  trade: zimmerer
+  city: "Oldenburg"
+  note: "near-miss zimmerer vs dachdecker: carpentry on the rafters; the roofer's layers are excluded"
+
+- id: lot-152
+  title: "LV 44"
+  text: |
+    Wandbekleidung Akustikpaneele Eiche furniert, Unterkonstruktion, Schattenfugen, Ratssaal.
+  trade: tischler
+  city: "Heidelberg"
+  note: "hard: veneered acoustic panelling is joinery, not drywall"
+
+- id: lot-153
+  title: "LV 09"
+  text: |
+    Stützen HEB 240, Unterzüge IPE 450, Kopfbolzendübel für Verbunddecke, Fußplatten mit
+    Ankerbarren. Brandschutzbeschichtung R 60 nicht enthalten.
+  trade: stahlbau
+  city: "Mülheim an der Ruhr"
+  note: "hard: only rolled sections named; coating explicitly excluded"
+
+- id: lot-154
+  title: "Gewerk 012 Mauerarbeiten"
+  text: |
+    KS-Mauerwerk 17,5 cm und 24 cm im Dünnbettmörtel, ca. 1.850 m², Ringbalken, Fertigteilstürze.
+  trade: rohbau
+  city: "Bremen"
+
+- id: lot-155
+  title: "Los 20 Estrich inkl. Gefälleestrich"
+  text: |
+    Schwimmender Estrich Wohnungen ca. 1.600 m², zusätzlich Gefälleestrich in bodengleichen
+    Duschen; Verbundabdichtung durch Fliesenleger.
+  trade: estrich
+  city: "Hanau"
+  note: "mixed: screed plus fall screed in showers; waterproofing excluded"
+
+- id: lot-156
+  title: "Los 23.1 Badsanierung"
+  text: |
+    Altfliesen abschlagen, neue Wand- und Bodenfliesen, Duschrinnen setzen (Anschluss durch
+    Sanitär), 24 Bäder.
+  trade: fliesen
+  city: "Krefeld"
+  note: "mixed: some demolition, but new tiling is most of the value"
+
+- id: lot-157
+  title: "Los 00 Abbrucharbeiten"
+  text: |
+    Rückbau Bestandsgebäude 2 Geschosse Mauerwerk, ca. 4.200 m³ BRI, sortenreine Trennung, Entsorgung.
+  trade: abbruch
+  city: "Wolfsburg"
+
+- id: lot-158
+  title: "LV 31"
+  text: |
+    Holz-Alu-Fenster Kiefer/Alu RAL 7016, Dreh-Kipp, Raffstorevorbereitung, Anschluss mit
+    Kompribändern und Folien innen/außen.
+  trade: fenster
+  city: "Offenburg"
+  note: "hard: wood-aluminium windows; exterior windows go to the Fenster trade, not Tischler"
+
+- id: lot-159
+  title: "LB 027 Tischlerarbeiten"
+  text: |
+    Innentüren, Einbaumöbel nach Möbelliste
+  trade: tischler
+  city: "Marburg"
+
+- id: lot-160
+  title: "Flächenheizung"
+  text: |
+    Noppensystemplatte, PE-RT 16 x 2, Heizkreisverteiler 10 Abgänge, Stellantriebe.
+  trade: heizung
+  city: "Bad Kreuznach"
+  note: "hard: underfloor heating pipework before the screed"
+
+- id: lot-161
+  title: "Los 14 Fensterarbeiten"
+  text: |
+    Kunststofffenster 3-fach-Verglasung Uw <= 0,9 W/m²K, RAL-Montage, ca. 96 Stück.
+  trade: fenster
+  city: "Erfurt"
+
+- id: lot-162
+  title: "LV 25 Fassade"
+  text: |
+    Mineralwolle-Lamellenplatten 200 mm geklebt und gedübelt, Gewebespachtel, Kratzputz
+    mineralisch, Sockeldämmung XPS.
+  trade: putz
+  city: "Bonn"
+  note: "hard: an ETICS described by its layers"
+
+- id: lot-163
+  title: "Los 3 Rohbau inkl. Erdarbeiten"
+  text: |
+    Baugrubenaushub ca. 900 m³, Bodenplatte, Kelleraußenwände Stb, 3 Geschosse Planziegel 36,5,
+    Stb-Decken, Attika.
+  trade: rohbau
+  city: "Ulm"
+  note: "mixed: excavation is included but most of the value is concrete and masonry"
+
+- id: lot-164
+  title: "Los 4 – Leitungsgräben"
+  text: |
+    Grabenaushub für Grundleitungen und Hausanschlüsse, Tiefe bis 1,75 m, Grabenverbau,
+    Sandbettung und Verfüllung in Lagen. Rohrverlegung erfolgt durch Gewerk Sanitär.
+  trade: erdarbeiten
+  city: "Paderborn"
+  note: "near-miss erdarbeiten vs sanitaer: trench only, the pipes are explicitly someone else's"
+
+- id: lot-165
+  title: "LV 06"
+  text: |
+    BSH-Binder GL24h 16/120 cm, Spannweite 18 m, Stahlformteile, Pfettenlage, Dachschalung
+    OSB/3 22 mm.
+  trade: zimmerer
+  city: "Passau"
+  note: "hard: glulam beams and OSB decking, trade not named"
+
+- id: lot-166
+  title: "Rückbau Außenflächen"
+  text: |
+    Asphaltflächen aufbrechen ca. 1.800 m², Bordsteine ausbauen, Fundamente Lichtmasten entfernen.
+  trade: abbruch
+  city: "Dortmund"
+  note: "near-miss abbruch vs aussenanlagen/erdarbeiten: removal of existing paved areas"
+
+- id: lot-167
+  title: "Los 19 Brand- und Rauchschutztüren"
+  text: |
+    T30-RS Stahltüren einflügelig, T90 zweiflügelig, Feststellanlagen, Obentürschließer mit
+    Gleitschiene.
+  trade: fenster
+  city: "Stuttgart"
+  note: "near-miss fenster vs tischler: steel fire doors are Metallbau; wooden doors would be Tischler"
+
+- id: lot-168
+  title: "Los 9 Außenfensterbänke"
+  text: |
+    Fensterbänke außen Aluminium stranggepresst, Bordstücke, Antidröhnbeschichtung, ca. 160 Stück.
+  trade: klempner
+  city: "Neuss"
+  note: "near-miss klempner vs fenster: a separate lot for outside sills is sheet-metal work"
+
+- id: lot-169
+  title: "Fahrtreppe"
+  text: |
+    Fahrtreppe Neigung 30°, Förderhöhe 5,2 m, Stufenbreite 1.000 mm.
+  trade: aufzug
+  city: "Bonn"
+  note: "hard: escalators are in DIN 18385"
+
+- id: lot-170
+  title: "Gewerk 045 Estrich"
+  text: |
+    Calciumsulfat-Fließestrich CAF-C25-F5 als Heizestrich, Randdämmstreifen, Bewegungsfugen.
+  trade: estrich
+  city: "Ulm"
+
+- id: lot-171
+  title: "Büroflächen 3.-5. OG"
+  text: |
+    Teppichfliesen 50 x 50 Schlingenware, mit Fixierung, ca. 2.400 m².
+  trade: bodenbelag
+  city: "Eschborn"
+  note: "hard: carpet tiles"
+
+- id: lot-172
+  title: "Los 21 Fassadensanierung"
+  text: |
+    Risssanierung Altputz, vollflächige Armierungsschicht mit Gewebe, Egalisationsanstrich Silikat.
+  trade: putz
+  city: "Darmstadt"
+  note: "near-miss putz vs maler: render repair and reinforcement dominate; the coat of paint is small"
+
+- id: lot-173
+  title: "Los 9 Stuck"
+  text: |
+    Wiederherstellen profilierter Deckengesimse nach Schablone, Rosetten abformen und ergänzen,
+    Gründerzeitaltbau.
+  trade: putz
+  city: "Leipzig"
+  note: "hard: stucco restoration"
+
+- id: lot-174
+  title: "LV 01"
+  text: |
+    Schadstoffsanierung: Floor-Flex-Platten ausbauen nach TRGS 519, KMF-Dämmung nach TRGS 521.
+  trade: abbruch
+  city: "Bremen"
+  note: "hard: hazardous material removal"
+
+- id: lot-175
+  title: "WC-Trennwände"
+  text: |
+    WC-Trennwandanlagen HPL Vollkern 13 mm, Türen mit Belegtanzeige, Urinaltrennwände.
+  trade: tischler
+  city: "Gießen"
+  note: "near-miss tischler vs trockenbau/sanitaer: cubicle systems are usually in the Tischler lot"
+
+- id: lot-176
+  title: "Blitzschutz"
+  text: |
+    Äußerer Blitzschutz, Fangleitungen, Ableitungen, Ringerder V4A, Potentialausgleich.
+  trade: elektro
+  city: "Salzgitter"
+  note: "hard (near-miss elektro vs klempner/dachdecker): metal on the roof, but lightning protection"
+
+- id: lot-177
+  title: "Deckenputz auf Putzträger"
+  text: |
+    Rabitzdecke abgehängt, Putzträger Streckmetall, Gipsmaschinenputz 20 mm.
+  trade: putz
+  city: "Karlsruhe"
+  note: "near-miss putz vs trockenbau: a suspended ceiling, but plastered on lath"
+
+- id: lot-178
+  title: "Gewerk 022 Bauklempner"
+  text: |
+    Attikaabdeckungen Aluminium 2 mm, Zuschnitt 500 mm, pulverbeschichtet, ca. 180 m.
+  trade: klempner
+  city: "Bayreuth"
+
+- id: lot-179
+  title: "LV 36"
+  text: |
+    Vinyl-Designbelag verklebt 2,5 mm, Untergrund schleifen und spachteln, Treppenkanten Alu.
+  trade: bodenbelag
+  city: "Stuttgart"
+  note: "hard: LVT; the preparation is part of laying"
+
+- id: lot-180
+  title: "Flachdach mit Extensivbegrünung"
+  text: |
+    Wurzelfeste Abdichtung Bitumen 2-lagig, Dämmung PIR 180 mm, Drainmatte, Substrat 8 cm,
+    Sedumsprossen, Kiesstreifen an Attika.
+  trade: dachdecker
+  city: "Fulda"
+  note: "mixed: waterproofing plus extensive green roof; the waterproofing build-up carries most value"
+
+- id: lot-181
+  title: "Gewerk 016 Zimmer- und Holzbauarbeiten"
+  text: |
+    Holzbalkendecken, Dachkonstruktion, Schalungen
+  trade: zimmerer
+  city: "Kempten"
+
+- id: lot-182
+  title: "Los 30 Heizungsinstallation"
+  text: |
+    Wärmeerzeugung, Verteilung und Heizflächen nach DIN 18380, Gas-Brennwertkessel 120 kW.
+  trade: heizung
+  city: "Darmstadt"
+
+- id: lot-183
+  title: "Los 1 Gerüst und Bauzaun"
+  text: |
+    Fassadengerüst 1.800 m², Schutzwand, Bauzaun 120 m.
+  trade: geruest
+  city: "Kiel"
+  note: "mixed: scaffold dominant"
+
+- id: lot-184
+  title: "Gerüstbau"
+  text: |
+    Gerüst stellen, vorhalten, abbauen
+  trade: geruest
+  city: "Cottbus"
+
+- id: lot-185
+  title: "Los 2 Abbruch und Baugrube"
+  text: |
+    Abbruch Garagen und Bodenplatten, anschließend Baugrubenaushub 300 m³.
+  trade: abbruch
+  city: "Leverkusen"
+  note: "mixed: demolition dominant"
+
+- id: lot-186
+  title: "Los 16 Fenster und Außentüren inkl. Innenfensterbänke"
+  text: |
+    Alu-Fenster, Hauseingangstür mit Seitenteil, Innenfensterbänke Werzalit, ca. 70 Einheiten.
+  trade: fenster
+  city: "Halle (Saale)"
+  note: "mixed: windows and doors plus inside sills (Tischler); windows carry most of the value"
+
+- id: lot-187
+  title: "Dämmung Rohrleitungen"
+  text: |
+    Dämmung Heizungsleitungen nach GEG Anlage 8, Mineralwolle alukaschiert, Armaturenkappen.
+  trade: heizung
+  city: "Rheine"
+  note: "hard: insulation of technical systems has no own key; it belongs to the system it insulates"
+
+- id: lot-188
+  title: "Los 6"
+  text: |
+    Filigrandecken mit Aufbeton d = 22 cm, Unterzüge, Stb-Stützen 30/30 in Sichtbeton SB 2,
+    Treppenläufe als Fertigteil auf Elastomerlagern.
+  trade: rohbau
+  city: "Dresden"
+  note: "hard: bare lot number, trade only from Filigrandecken / Stb-Stützen"
+
+- id: lot-189
+  title: "Gewerk 016 Fassade"
+  text: |
+    Fassadenunterkonstruktion Lattung 30/50 und Lärchenschalung Rhombusprofil 21x68 sägerau,
+    ca. 640 m², offene Fugen, Insektengitter.
+  trade: zimmerer
+  city: "Lüneburg"
+  note: "near-miss zimmerer vs tischler: exterior timber cladding is carpentry, not joinery"
+
+- id: lot-190
+  title: "Los 33 Elektroinstallation"
+  text: |
+    Starkstrom, Unterverteilungen, Installation, Beleuchtung nach DIN 18382.
+  trade: elektro
+  city: "Karlsruhe"
+
+- id: lot-191
+  title: "KG 440 Starkstromanlagen"
+  text: |
+    NSHV, Unterverteilungen, Kabel und Leitungen, Leuchten.
+  trade: elektro
+  city: "Hagen"
+
+- id: lot-192
+  title: "LV 22"
+  text: |
+    Doppelstehfalzdeckung Kupfer 0,7 mm auf Vollschalung mit strukturierter Trennlage,
+    Turmhelm und Gaubendächer.
+  trade: klempner
+  city: "Speyer"
+  note: "hard: a metal roof covering is sheet-metal work (DIN 18339), not roof tiling"
+
+- id: lot-193
+  title: "Terrassenplatten EG"
+  text: |
+    Betonwerksteinplatten 60 x 40 in Splittbett auf Terrasse EG (auf Erdreich).
+  trade: aussenanlagen
+  city: "Stuttgart"
+  note: "near-miss aussenanlagen vs fliesen: slabs on ground"
+
+- id: lot-194
+  title: "Sanierung Dach Turnhalle"
+  text: |
+    Abtragen der Kiesschüttung, Altabdichtung bleibt, neue Lage PIB-Bahn lose verlegt mit
+    Auflast, Kies wieder aufbringen.
+  trade: dachdecker
+  city: "Gütersloh"
+  note: "hard: removal is part of it, but the lot is a new waterproofing layer"
+
+- id: lot-195
+  title: "Los 11 Dachdeckerarbeiten"
+  text: |
+    Steildach Biberschwanz-Doppeldeckung Tondachziegel, ca. 480 m², Lattung, Firste und Grate
+    mörtelfrei, Lüftungsziegel.
+  trade: dachdecker
+  city: "Bamberg"
+
+- id: lot-196
+  title: "Los 12"
+  text: |
+    Fachwerkbinder aus Hohlprofilen RHS 200x100, Spannweite 24 m, Schweißnahtprüfung,
+    Korrosionsschutz C3 nach DIN EN ISO 12944.
+  trade: stahlbau
+  city: "Siegen"
+  note: "hard: no trade word; truss of hollow sections is structural steel"

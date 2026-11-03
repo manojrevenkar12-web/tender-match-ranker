@@ -1,0 +1,47 @@
+{
+ "ships": true,
+ "gates": [
+  {
+   "gate": "doubly-robust lift over the rules, 95 % lower bound",
+   "value": 0.5158,
+   "limit": "> 0.0",
+   "pass": true
+  },
+  {
+   "gate": "P(invited and bid) calibration error",
+   "value": 0.0022,
+   "limit": "<= 0.03",
+   "pass": true
+  },
+  {
+   "gate": "trade reader macro F1, simulated test lots",
+   "value": 0.9986,
+   "limit": ">= 0.85",
+   "pass": true
+  },
+  {
+   "gate": "shortlist places for firms under 6 months on the platform (replay)",
+   "value": 0.1206,
+   "limit": ">= 0.05",
+   "pass": true
+  },
+  {
+   "gate": "invitations to the busiest 1 % of firms (replay)",
+   "value": 0.0875,
+   "limit": "<= 0.12",
+   "pass": true
+  },
+  {
+   "gate": "value lost to fatigue, replay vs single-lot",
+   "value": -0.0349,
+   "limit": "<= 0.1",
+   "pass": true
+  },
+  {
+   "gate": "serving p95 latency, ms",
+   "value": 16.9,
+   "limit": "<= 120",
+   "pass": true
+  }
+ ]
+}

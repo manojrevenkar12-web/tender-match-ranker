@@ -1,0 +1,83 @@
+/* Design tokens. Every colour, size, space and duration used by the console comes from here. */
+:root {
+  --paper: #f3f5f6;
+  --panel: #ffffff;
+  --ink: #14201c;
+  --ink-2: #3c4a45;
+  --muted: #56645f;
+  --line: #d5dbd8;
+  --line-strong: #aab5b0;
+  --accent: #1d6b4f;
+  --accent-ink: #ffffff;
+  --accent-soft: #e3f1ea;
+  --warn: #8a4b05;
+  --warn-soft: #fff1dc;
+  --bad: #a3261b;
+  --bad-soft: #fde8e5;
+  --tape: #e9b949; /* the measuring tape: only ever behind dark ink */
+  --tape-ink: #2a2105;
+  --focus: #0b57d0;
+
+  --font: "Archivo Variable", "Archivo", system-ui, sans-serif;
+  --wide: 112; /* font-stretch for headings */
+  --fs-xs: 0.75rem;
+  --fs-s: 0.8125rem;
+  --fs-m: 0.9375rem;
+  --fs-l: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-xxl: 2.25rem;
+  --lh: 1.45;
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --rule: 1px;
+  --bar: 6px;
+  --list-width: 360px;
+  --content-max: 1180px;
+  --row-min: 56px;
+  --tape-ticks: 50;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0f1513;
+    --panel: #16201c;
+    --ink: #e7eeea;
+    --ink-2: #c3cec9;
+    --muted: #9aa8a2;
+    --line: #2b3833;
+    --line-strong: #44544e;
+    --accent: #6fcf9f;
+    --accent-ink: #0b1a13;
+    --accent-soft: #1b3229;
+    --warn: #f2b45a;
+    --warn-soft: #33260f;
+    --bad: #ff8f84;
+    --bad-soft: #3a1915;
+    --focus: #8ab4f8;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0f1513;
+  --panel: #16201c;
+  --ink: #e7eeea;
+  --ink-2: #c3cec9;
+  --muted: #9aa8a2;
+  --line: #2b3833;
+  --line-strong: #44544e;
+  --accent: #6fcf9f;
+  --accent-ink: #0b1a13;
+  --accent-soft: #1b3229;
+  --warn: #f2b45a;
+  --warn-soft: #33260f;
+  --bad: #ff8f84;
+  --bad-soft: #3a1915;
+  --focus: #8ab4f8;
+}

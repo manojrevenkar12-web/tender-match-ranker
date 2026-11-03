@@ -1,0 +1,147 @@
+{
+ "lots": 198,
+ "tfidf": {
+  "accuracy": 0.5909,
+  "macro_f1": 0.6051,
+  "top3": 0.8586,
+  "low_confidence_share": 0.4899,
+  "by_kind": {
+   "easy": 0.983,
+   "hard": 0.443,
+   "mixed": 0.55,
+   "near-miss": 0.325
+  }
+ },
+ "hash": {
+  "accuracy": 0.6061,
+  "macro_f1": 0.6241,
+  "top3": 0.8283,
+  "low_confidence_share": 0.5556,
+  "by_kind": {
+   "easy": 0.966,
+   "hard": 0.519,
+   "mixed": 0.4,
+   "near-miss": 0.35
+  }
+ },
+ "hybrid": {
+  "accuracy": 0.899,
+  "macro_f1": 0.9012,
+  "top3": 0.9798,
+  "low_confidence_share": 0.0,
+  "by_kind": {
+   "easy": 1.0,
+   "hard": 0.911,
+   "mixed": 0.7,
+   "near-miss": 0.825
+  },
+  "model": {
+   "calls": 10,
+   "cost_usd": 0.01295
+  }
+ },
+ "misses": [
+  {
+   "id": "lot-004",
+   "trade": "abbruch",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-017",
+   "trade": "aussenanlagen",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-027",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-041",
+   "trade": "maler",
+   "read_as": "stahlbau"
+  },
+  {
+   "id": "lot-044",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-052",
+   "trade": "bodenbelag",
+   "read_as": "estrich"
+  },
+  {
+   "id": "lot-076",
+   "trade": "estrich",
+   "read_as": "fliesen"
+  },
+  {
+   "id": "lot-079",
+   "trade": "trockenbau",
+   "read_as": "estrich"
+  },
+  {
+   "id": "lot-082",
+   "trade": "maler",
+   "read_as": "bodenbelag"
+  },
+  {
+   "id": "lot-085",
+   "trade": "dachdecker",
+   "read_as": "klempner"
+  },
+  {
+   "id": "lot-093",
+   "trade": "rohbau",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-108",
+   "trade": "aussenanlagen",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-119",
+   "trade": "klempner",
+   "read_as": "fenster"
+  },
+  {
+   "id": "lot-120",
+   "trade": "abbruch",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-128",
+   "trade": "putz",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-145",
+   "trade": "klempner",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-152",
+   "trade": "klempner",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-158",
+   "trade": "fliesen",
+   "read_as": "estrich"
+  },
+  {
+   "id": "lot-165",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-195",
+   "trade": "aussenanlagen",
+   "read_as": "erdarbeiten"
+  }
+ ],
+ "status": "blind",
+ "ran_at": "2026-11-03T20:03:24+00:00"
+}

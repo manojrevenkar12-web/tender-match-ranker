@@ -1,0 +1,8 @@
+# Daily checks on the live ranker; each breach raises an alert with this severity.
+alerts:
+  - { metric: bid_rate_vs_predicted, max_abs_gap: 0.03, window_days: 7, severity: page }
+  - { metric: calibration_ece, max: 0.04, window_days: 14, severity: ticket }
+  - { metric: feature_psi, max: 0.2, window_days: 7, severity: ticket }
+  - { metric: top1pct_invite_share, max: 0.12, window_days: 14, severity: ticket }
+  - { metric: new_firm_slot_share, min: 0.05, window_days: 14, severity: ticket }
+  - { metric: trade_reader_low_confidence_share, max: 0.15, window_days: 7, severity: ticket }

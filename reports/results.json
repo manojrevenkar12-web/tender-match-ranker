@@ -1,0 +1,535 @@
+{
+ "generated": "2026-11-03",
+ "profile": "full",
+ "market": {
+  "months": 18,
+  "firms": 5200,
+  "buyers": 260,
+  "lots": 19862,
+  "impressions": 395622,
+  "invited": 121086,
+  "bids": 43480,
+  "randomised_lots": 1569
+ },
+ "policies": {
+  "rules": {
+   "label": "Current rules (buyer's trade label, experience, distance)",
+   "offline": {
+    "lots": 3309,
+    "ndcg": 0.7123,
+    "ips": 1.3919,
+    "dr": 1.3944,
+    "truth": 1.3765,
+    "support": 1.0,
+    "dr_lift": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "truth_lift": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "replay": {
+    "expected_competitive_per_lot": 1.373,
+    "realised_competitive_per_lot": 1.3883,
+    "bids_per_lot": 2.2312,
+    "invites_per_lot": 6.1188,
+    "bid_rate": 0.3646,
+    "top1pct_invite_share": 0.1298,
+    "firms_invited": 2068,
+    "new_firm_slot_share": 0.0114
+   }
+  },
+  "lambdamart": {
+   "label": "LambdaMART on logged labels",
+   "offline": {
+    "lots": 3309,
+    "ndcg": 0.6801,
+    "ips": 1.4148,
+    "dr": 1.5383,
+    "truth": 1.5164,
+    "support": 0.8883,
+    "dr_lift": [
+     0.1439,
+     0.1347,
+     0.1535
+    ],
+    "truth_lift": [
+     0.1399,
+     0.1354,
+     0.1447
+    ]
+   },
+   "replay": {
+    "expected_competitive_per_lot": 1.5173,
+    "realised_competitive_per_lot": 1.5328,
+    "bids_per_lot": 2.4104,
+    "invites_per_lot": 6.1242,
+    "bid_rate": 0.3936,
+    "top1pct_invite_share": 0.1233,
+    "firms_invited": 2384,
+    "new_firm_slot_share": 0.0271
+   }
+  },
+  "lambdamart_debiased": {
+   "label": "LambdaMART, LightGBM position debiasing",
+   "offline": {
+    "lots": 3309,
+    "ndcg": 0.5354,
+    "ips": 1.2915,
+    "dr": 1.8185,
+    "truth": 1.7602,
+    "support": 0.6117,
+    "dr_lift": [
+     0.4241,
+     0.4,
+     0.4467
+    ],
+    "truth_lift": [
+     0.3838,
+     0.373,
+     0.3948
+    ]
+   },
+   "replay": {
+    "expected_competitive_per_lot": 1.7919,
+    "realised_competitive_per_lot": 1.7957,
+    "bids_per_lot": 2.6878,
+    "invites_per_lot": 6.0846,
+    "bid_rate": 0.4417,
+    "top1pct_invite_share": 0.0998,
+    "firms_invited": 3312,
+    "new_firm_slot_share": 0.1135
+   }
+  },
+  "torch_naive": {
+   "label": "Network on logged labels",
+   "offline": {
+    "lots": 3309,
+    "ndcg": 0.5427,
+    "ips": 1.2803,
+    "dr": 1.8745,
+    "truth": 1.7928,
+    "support": 0.5722,
+    "dr_lift": [
+     0.4801,
+     0.4553,
+     0.5032
+    ],
+    "truth_lift": [
+     0.4163,
+     0.4048,
+     0.4291
+    ]
+   },
+   "replay": {
+    "expected_competitive_per_lot": 1.8512,
+    "realised_competitive_per_lot": 1.8589,
+    "bids_per_lot": 2.7794,
+    "invites_per_lot": 6.146,
+    "bid_rate": 0.4522,
+    "top1pct_invite_share": 0.0939,
+    "firms_invited": 3635,
+    "new_firm_slot_share": 0.0955
+   }
+  },
+  "torch_pbm": {
+   "label": "Network, position-bias model",
+   "offline": {
+    "lots": 3309,
+    "ndcg": 0.4772,
+    "ips": 1.2458,
+    "dr": 1.9611,
+    "truth": 1.8688,
+    "support": 0.5206,
+    "dr_lift": [
+     0.5668,
+     0.5385,
+     0.5932
+    ],
+    "truth_lift": [
+     0.4923,
+     0.4794,
+     0.5064
+    ]
+   },
+   "replay": {
+    "expected_competitive_per_lot": 1.9156,
+    "realised_competitive_per_lot": 1.9066,
+    "bids_per_lot": 2.7679,
+    "invites_per_lot": 6.1327,
+    "bid_rate": 0.4513,
+    "top1pct_invite_share": 0.0917,
+    "firms_invited": 3672,
+    "new_firm_slot_share": 0.1093
+   }
+  },
+  "ranker": {
+   "label": "Shipping: position-bias model + fatigue + new-firm places",
+   "offline": {
+    "lots": 3309,
+    "ndcg": 0.4159,
+    "ips": 1.099,
+    "dr": 1.9408,
+    "truth": 1.8485,
+    "support": 0.433,
+    "dr_lift": [
+     0.5464,
+     0.5158,
+     0.5766
+    ],
+    "truth_lift": [
+     0.472,
+     0.4579,
+     0.4868
+    ]
+   },
+   "replay": {
+    "expected_competitive_per_lot": 1.913,
+    "realised_competitive_per_lot": 1.9096,
+    "bids_per_lot": 2.7948,
+    "invites_per_lot": 6.1466,
+    "bid_rate": 0.4547,
+    "top1pct_invite_share": 0.0875,
+    "firms_invited": 3895,
+    "new_firm_slot_share": 0.1206
+   }
+  }
+ },
+ "logged_mean": 1.3781,
+ "ab": {
+  "lots": 3309,
+  "plain": {
+   "effect": 0.42,
+   "se": 0.0517,
+   "ci": [
+    0.3186,
+    0.5214
+   ]
+  },
+  "cuped": {
+   "effect": 0.3951,
+   "se": 0.0489,
+   "ci": [
+    0.2994,
+    0.4909
+   ]
+  },
+  "sequential": [
+   {
+    "look": 1,
+    "lots": 786,
+    "z": 4.89,
+    "bound": 3.92,
+    "stop": true
+   },
+   {
+    "look": 2,
+    "lots": 1446,
+    "z": 6.72,
+    "bound": 2.77,
+    "stop": true
+   },
+   {
+    "look": 3,
+    "lots": 2301,
+    "z": 6.62,
+    "bound": 2.26,
+    "stop": true
+   },
+   {
+    "look": 4,
+    "lots": 3309,
+    "z": 8.09,
+    "bound": 1.96,
+    "stop": true
+   }
+  ],
+  "true_effect": 0.5213
+ },
+ "reader": {
+  "buyer_label_right": 0.9121,
+  "tfidf": {
+   "accuracy": 0.9955,
+   "macro_f1": 0.9954,
+   "top3": 1.0,
+   "low_confidence_share": 0.0015
+  },
+  "hash": {
+   "accuracy": 0.9985,
+   "macro_f1": 0.9986,
+   "top3": 1.0,
+   "low_confidence_share": 0.0018
+  }
+ },
+ "reader_vs_labels": {
+  "tfidf": {
+   "test": {
+    "accuracy": 0.9093,
+    "macro_f1": 0.9098,
+    "top3": 0.993,
+    "low_confidence_share": 0.0015
+   }
+  },
+  "hash": {
+   "test": {
+    "accuracy": 0.9112,
+    "macro_f1": 0.9117,
+    "top3": 0.9927,
+    "low_confidence_share": 0.0018
+   }
+  }
+ },
+ "blind": {
+  "blind-1": {
+   "tfidf": {
+    "accuracy": 0.6173,
+    "macro_f1": 0.6217,
+    "top3": 0.8316,
+    "low_confidence_share": 0.5051,
+    "by_kind": {
+     "easy": 0.912,
+     "hard": 0.458,
+     "mixed": 0.722,
+     "near-miss": 0.469
+    }
+   },
+   "hash": {
+    "accuracy": 0.6327,
+    "macro_f1": 0.6507,
+    "top3": 0.8112,
+    "low_confidence_share": 0.5153,
+    "by_kind": {
+     "easy": 0.912,
+     "hard": 0.528,
+     "mixed": 0.667,
+     "near-miss": 0.449
+    }
+   }
+  },
+  "blind-2": {
+   "tfidf": {
+    "accuracy": 0.5909,
+    "macro_f1": 0.6051,
+    "top3": 0.8586,
+    "low_confidence_share": 0.4899,
+    "by_kind": {
+     "easy": 0.983,
+     "hard": 0.443,
+     "mixed": 0.55,
+     "near-miss": 0.325
+    }
+   },
+   "hash": {
+    "accuracy": 0.6061,
+    "macro_f1": 0.6241,
+    "top3": 0.8283,
+    "low_confidence_share": 0.5556,
+    "by_kind": {
+     "easy": 0.966,
+     "hard": 0.519,
+     "mixed": 0.4,
+     "near-miss": 0.35
+    }
+   },
+   "hybrid": {
+    "accuracy": 0.899,
+    "macro_f1": 0.9012,
+    "top3": 0.9798,
+    "low_confidence_share": 0.0,
+    "by_kind": {
+     "easy": 1.0,
+     "hard": 0.911,
+     "mixed": 0.7,
+     "near-miss": 0.825
+    },
+    "model": {
+     "calls": 10,
+     "cost_usd": 0.01295
+    }
+   }
+  }
+ },
+ "examination": {
+  "estimated": [
+   1.0,
+   0.728,
+   0.605,
+   0.53,
+   0.479,
+   0.44,
+   0.41,
+   0.386,
+   0.366,
+   0.349,
+   0.334,
+   0.321,
+   0.309,
+   0.299,
+   0.29,
+   0.281,
+   0.274,
+   0.266,
+   0.26,
+   0.254
+  ],
+  "true": [
+   1.0,
+   0.732,
+   0.61,
+   0.536,
+   0.485,
+   0.447,
+   0.417,
+   0.392,
+   0.372,
+   0.355,
+   0.34,
+   0.327,
+   0.315,
+   0.305,
+   0.296,
+   0.287,
+   0.279,
+   0.272,
+   0.266,
+   0.26
+  ],
+  "max_abs_error": 0.006
+ },
+ "calibration": {
+  "ece": 0.0022,
+  "mean_predicted": 0.1133,
+  "mean_observed": 0.111
+ },
+ "price": {
+  "bids": 7335,
+  "pinball": {
+   "0.1": 0.01453,
+   "0.5": 0.03278,
+   "0.9": 0.01443
+  },
+  "inside_q0.1_q0.9": 0.7873,
+  "brier_competitive": 0.1776,
+  "brier_base_rate": 0.2352
+ },
+ "heldout_month": {
+  "lots": 1086,
+  "rules": {
+   "expected_competitive_per_lot": 1.3556,
+   "realised_competitive_per_lot": 1.4319,
+   "bids_per_lot": 2.291
+  },
+  "ranker": {
+   "expected_competitive_per_lot": 1.854,
+   "realised_competitive_per_lot": 1.8656,
+   "bids_per_lot": 2.7606
+  },
+  "lift": 0.3677,
+  "monitoring_alerts": [
+   {
+    "metric": "feature_psi",
+    "value": 0.7369,
+    "severity": "ticket",
+    "limit": {
+     "max": 0.2
+    }
+   }
+  ],
+  "status": "blind",
+  "ran_at": "2026-11-03T19:54:38+00:00"
+ },
+ "agent": {
+  "cases": 12,
+  "model": true,
+  "extraction_exact": 1.0,
+  "field_accuracy": {
+   "city": 1.0,
+   "deadline": 1.0,
+   "max_km": 1.0,
+   "min_invites": 1.0,
+   "exclude": 1.0,
+   "lots": 1.0
+  },
+  "trade_accuracy": 0.917,
+  "invariants_broken": 0,
+  "decisions_replaced_by_verifier": 3,
+  "model_messages_verified": "21/24",
+  "calls": 24,
+  "cost_usd": 0.031
+ },
+ "agent_no_model": {
+  "cases": 12,
+  "model": false,
+  "extraction_exact": 0.667,
+  "field_accuracy": {
+   "city": 1.0,
+   "deadline": 1.0,
+   "max_km": 1.0,
+   "min_invites": 0.917,
+   "exclude": 0.833,
+   "lots": 0.917
+  },
+  "trade_accuracy": 0.833,
+  "invariants_broken": 0,
+  "decisions_replaced_by_verifier": 0,
+  "model_messages_verified": "23/23",
+  "calls": 0,
+  "cost_usd": 0.0
+ },
+ "bench": {
+  "lots": 300,
+  "p50_ms": 11.3,
+  "p95_ms": 16.9
+ },
+ "release": {
+  "ships": true,
+  "gates": [
+   {
+    "gate": "doubly-robust lift over the rules, 95 % lower bound",
+    "value": 0.5158,
+    "limit": "> 0.0",
+    "pass": true
+   },
+   {
+    "gate": "P(invited and bid) calibration error",
+    "value": 0.0022,
+    "limit": "<= 0.03",
+    "pass": true
+   },
+   {
+    "gate": "trade reader macro F1, simulated test lots",
+    "value": 0.9986,
+    "limit": ">= 0.85",
+    "pass": true
+   },
+   {
+    "gate": "shortlist places for firms under 6 months on the platform (replay)",
+    "value": 0.1206,
+    "limit": ">= 0.05",
+    "pass": true
+   },
+   {
+    "gate": "invitations to the busiest 1 % of firms (replay)",
+    "value": 0.0875,
+    "limit": "<= 0.12",
+    "pass": true
+   },
+   {
+    "gate": "value lost to fatigue, replay vs single-lot",
+    "value": -0.0349,
+    "limit": "<= 0.1",
+    "pass": true
+   },
+   {
+    "gate": "serving p95 latency, ms",
+    "value": 16.9,
+    "limit": "<= 120",
+    "pass": true
+   }
+  ]
+ }
+}

@@ -1,0 +1,495 @@
+{
+ "lot_id": 18786,
+ "model_version": "torch_pbm+fatigue@2026-11-03",
+ "candidates": 71,
+ "firms": [
+  {
+   "firm_id": 4552,
+   "position": 0,
+   "score": 0.2038,
+   "p_bid": 0.252,
+   "p_competitive": 0.726,
+   "price_band": [
+    0.878,
+    0.985,
+    1.103
+   ],
+   "distance_km": 4.8,
+   "bids_365": 3,
+   "bid_rate": 0.425,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung",
+    "heizung"
+   ],
+   "city": "Rostock"
+  },
+  {
+   "firm_id": 125,
+   "position": 1,
+   "score": 0.1573,
+   "p_bid": 0.2188,
+   "p_competitive": 0.599,
+   "price_band": [
+    0.9,
+    1.021,
+    1.143
+   ],
+   "distance_km": 20.4,
+   "bids_365": 3,
+   "bid_rate": 0.486,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung",
+    "heizung"
+   ],
+   "city": "Rostock"
+  },
+  {
+   "firm_id": 3706,
+   "position": 2,
+   "score": 0.1427,
+   "p_bid": 0.1831,
+   "p_competitive": 0.685,
+   "price_band": [
+    0.879,
+    0.991,
+    1.124
+   ],
+   "distance_km": 15.3,
+   "bids_365": 2,
+   "bid_rate": 0.267,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung",
+    "heizung"
+   ],
+   "city": "Rostock"
+  },
+  {
+   "firm_id": 349,
+   "position": 3,
+   "score": 0.1385,
+   "p_bid": 0.1781,
+   "p_competitive": 0.821,
+   "price_band": [
+    0.856,
+    0.96,
+    1.074
+   ],
+   "distance_km": 15.5,
+   "bids_365": 5,
+   "bid_rate": 0.415,
+   "invites_14": 1,
+   "busy": false,
+   "new": false,
+   "knows_buyer": false,
+   "trades": [
+    "heizung",
+    "lueftung"
+   ],
+   "city": "Rostock"
+  },
+  {
+   "firm_id": 1618,
+   "position": 4,
+   "score": 0.1342,
+   "p_bid": 0.2234,
+   "p_competitive": 0.589,
+   "price_band": [
+    0.912,
+    1.031,
+    1.118
+   ],
+   "distance_km": 110.1,
+   "bids_365": 40,
+   "bid_rate": 0.412,
+   "invites_14": 4,
+   "busy": true,
+   "new": false,
+   "knows_buyer": false,
+   "trades": [
+    "heizung",
+    "lueftung",
+    "sanitaer",
+    "tischler"
+   ],
+   "city": "Kiel"
+  },
+  {
+   "firm_id": 1680,
+   "position": 5,
+   "score": 0.1204,
+   "p_bid": 0.1747,
+   "p_competitive": 0.556,
+   "price_band": [
+    0.901,
+    1.036,
+    1.141
+   ],
+   "distance_km": 147.8,
+   "bids_365": 0,
+   "bid_rate": 0.2,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung",
+    "heizung"
+   ],
+   "city": "Hamburg"
+  },
+  {
+   "firm_id": 4772,
+   "position": 6,
+   "score": 0.1091,
+   "p_bid": 0.1332,
+   "p_competitive": 0.98,
+   "price_band": [
+    0.863,
+    0.941,
+    1.032
+   ],
+   "distance_km": 139.9,
+   "bids_365": 19,
+   "bid_rate": 0.24,
+   "invites_14": 2,
+   "busy": true,
+   "new": false,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung",
+    "heizung"
+   ],
+   "city": "Hamburg"
+  },
+  {
+   "firm_id": 165,
+   "position": 7,
+   "score": 0.1042,
+   "p_bid": 0.1495,
+   "p_competitive": 0.567,
+   "price_band": [
+    0.899,
+    1.038,
+    1.113
+   ],
+   "distance_km": 158.1,
+   "bids_365": 7,
+   "bid_rate": 0.274,
+   "invites_14": 0,
+   "busy": false,
+   "new": false,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung",
+    "heizung"
+   ],
+   "city": "Hamburg"
+  },
+  {
+   "firm_id": 3441,
+   "position": 8,
+   "score": 0.1019,
+   "p_bid": 0.1978,
+   "p_competitive": 0.443,
+   "price_band": [
+    0.945,
+    1.068,
+    1.195
+   ],
+   "distance_km": 206.8,
+   "bids_365": 90,
+   "bid_rate": 0.508,
+   "invites_14": 9,
+   "busy": true,
+   "new": false,
+   "knows_buyer": true,
+   "trades": [
+    "lueftung",
+    "heizung"
+   ],
+   "city": "Berlin"
+  },
+  {
+   "firm_id": 2107,
+   "position": 9,
+   "score": 0.0947,
+   "p_bid": 0.2092,
+   "p_competitive": 0.604,
+   "price_band": [
+    0.9,
+    1.022,
+    1.135
+   ],
+   "distance_km": 28.9,
+   "bids_365": 14,
+   "bid_rate": 0.389,
+   "invites_14": 3,
+   "busy": true,
+   "new": false,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung"
+   ],
+   "city": "Rostock"
+  },
+  {
+   "firm_id": 3033,
+   "position": 10,
+   "score": 0.0854,
+   "p_bid": 0.0866,
+   "p_competitive": 0.98,
+   "price_band": [
+    0.841,
+    0.94,
+    1.046
+   ],
+   "distance_km": 137.6,
+   "bids_365": 1,
+   "bid_rate": 0.35,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "heizung",
+    "lueftung",
+    "sanitaer"
+   ],
+   "city": "Kiel"
+  },
+  {
+   "firm_id": 342,
+   "position": 11,
+   "score": 0.0599,
+   "p_bid": 0.0773,
+   "p_competitive": 0.679,
+   "price_band": [
+    0.872,
+    0.996,
+    1.121
+   ],
+   "distance_km": 8.1,
+   "bids_365": 0,
+   "bid_rate": 0.1,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung"
+   ],
+   "city": "Rostock"
+  },
+  {
+   "firm_id": 3927,
+   "position": 12,
+   "score": 0.0461,
+   "p_bid": 0.1023,
+   "p_competitive": 0.488,
+   "price_band": [
+    0.921,
+    1.054,
+    1.161
+   ],
+   "distance_km": 191.7,
+   "bids_365": 4,
+   "bid_rate": 0.191,
+   "invites_14": 2,
+   "busy": true,
+   "new": false,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung",
+    "heizung"
+   ],
+   "city": "Berlin"
+  },
+  {
+   "firm_id": 668,
+   "position": 13,
+   "score": 0.0422,
+   "p_bid": 0.0654,
+   "p_competitive": 0.494,
+   "price_band": [
+    0.894,
+    1.053,
+    1.205
+   ],
+   "distance_km": 177.3,
+   "bids_365": 0,
+   "bid_rate": 0.2,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung",
+    "heizung",
+    "abbruch"
+   ],
+   "city": "Berlin"
+  },
+  {
+   "firm_id": 4617,
+   "position": 14,
+   "score": 0.041,
+   "p_bid": 0.0903,
+   "p_competitive": 0.496,
+   "price_band": [
+    0.914,
+    1.051,
+    1.164
+   ],
+   "distance_km": 194.7,
+   "bids_365": 6,
+   "bid_rate": 0.206,
+   "invites_14": 2,
+   "busy": true,
+   "new": false,
+   "knows_buyer": false,
+   "trades": [
+    "lueftung",
+    "heizung"
+   ],
+   "city": "Berlin"
+  },
+  {
+   "firm_id": 4791,
+   "position": 15,
+   "score": 0.0318,
+   "p_bid": 0.0456,
+   "p_competitive": 0.566,
+   "price_band": [
+    0.896,
+    1.028,
+    1.166
+   ],
+   "distance_km": 17.6,
+   "bids_365": 0,
+   "bid_rate": 0.067,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "heizung",
+    "lueftung",
+    "sanitaer"
+   ],
+   "city": "Rostock"
+  },
+  {
+   "firm_id": 3533,
+   "position": 16,
+   "score": 0.0308,
+   "p_bid": 0.0471,
+   "p_competitive": 0.506,
+   "price_band": [
+    0.898,
+    1.048,
+    1.185
+   ],
+   "distance_km": 200.3,
+   "bids_365": 0,
+   "bid_rate": 0.2,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "heizung",
+    "lueftung"
+   ],
+   "city": "Berlin"
+  },
+  {
+   "firm_id": 160,
+   "position": 17,
+   "score": 0.0303,
+   "p_bid": 0.0762,
+   "p_competitive": 0.351,
+   "price_band": [
+    0.991,
+    1.086,
+    1.187
+   ],
+   "distance_km": 326.8,
+   "bids_365": 46,
+   "bid_rate": 0.483,
+   "invites_14": 7,
+   "busy": true,
+   "new": false,
+   "knows_buyer": true,
+   "trades": [
+    "heizung",
+    "sanitaer",
+    "lueftung"
+   ],
+   "city": "Leipzig"
+  },
+  {
+   "firm_id": 168,
+   "position": 18,
+   "score": 0.0214,
+   "p_bid": 0.0328,
+   "p_competitive": 0.504,
+   "price_band": [
+    0.923,
+    1.048,
+    1.202
+   ],
+   "distance_km": 210.0,
+   "bids_365": 0,
+   "bid_rate": 0.2,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "heizung",
+    "lueftung",
+    "sanitaer"
+   ],
+   "city": "Berlin"
+  },
+  {
+   "firm_id": 5039,
+   "position": 19,
+   "score": 0.0193,
+   "p_bid": 0.0301,
+   "p_competitive": 0.487,
+   "price_band": [
+    0.934,
+    1.054,
+    1.213
+   ],
+   "distance_km": 226.5,
+   "bids_365": 0,
+   "bid_rate": 0.2,
+   "invites_14": 0,
+   "busy": false,
+   "new": true,
+   "knows_buyer": false,
+   "trades": [
+    "heizung",
+    "lueftung",
+    "sanitaer"
+   ],
+   "city": "Berlin"
+  }
+ ],
+ "expected_competitive": 0.812,
+ "busy_share": 0.254
+}

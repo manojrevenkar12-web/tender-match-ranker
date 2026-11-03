@@ -1,0 +1,31 @@
+seed: 7
+trade_reader:
+  buckets: 262144            # hashed n-gram buckets
+  dim: 48
+  char_ngrams: [3, 5]
+  epochs: 6
+  lr: 0.04
+  batch: 256
+  label_from: buyer_and_bidders   # GC's label, corrected by the primary trades of the firms that bid
+  model_below: 0.5           # lots whose top trade probability is below this are read by the model too
+  model_weight: 0.85         # weight of the model's answer against the hash reader's probabilities
+ranker:
+  hidden: [64, 32]
+  epochs: 5
+  lr: 0.002
+  batch: 2048
+  weight_decay: 0.00001
+  ipw_clip: 12.0             # cap on 1 / examination
+lambdamart:
+  num_leaves: 31
+  learning_rate: 0.05
+  n_estimators: 300
+  min_data_in_leaf: 50
+price:
+  quantiles: [0.1, 0.5, 0.9]
+  n_estimators: 250
+  learning_rate: 0.05
+features:
+  history_days: 365
+  prior_bids: 2.0            # beta prior for a firm's response rate (pseudo-invitations)
+  prior_rate: 0.2

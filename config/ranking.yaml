@@ -1,0 +1,17 @@
+# How the platform ranks candidates for a lot. Changes here go through the release gate.
+competitive_within: 0.05     # a bid is competitive at or below the reference price + 5 %
+candidates:
+  max_candidates: 400        # retrieved before ranking
+  trade_min_prob: 0.15       # trades the reader gives at least this probability are searched
+  radius_slack: 1.25         # firms up to 1.25 x their own radius
+shortlist: 20                # shown to the buyer
+utility:                     # score = P(bid) * (competitive_weight * P(competitive | bid) + (1 - competitive_weight))
+  competitive_weight: 0.7
+fatigue:                     # discount for firms already asked a lot (soft capacity)
+  window_days: 14
+  penalty: 0.35              # multiplier per unit of load over the firm's observed monthly bids
+exploration:
+  new_firm_slots: 2          # slots reserved for firms with little history
+  new_firm_max_invites: 8    # "new" means fewer invitations than this
+  plackett_luce_share: 0.05  # share of lots served from a randomised list, propensities logged
+  temperature: 1.0

@@ -1,0 +1,48 @@
+{
+ "metrics": {
+  "bid_rate_vs_predicted": 0.0008,
+  "calibration_ece": 0.0027,
+  "feature_psi": 0.7369,
+  "feature_psi_worst": "load_14",
+  "top1pct_invite_share": 0.088,
+  "new_firm_slot_share": 0.4656,
+  "trade_reader_low_confidence_share": 0.0
+ },
+ "psi": {
+  "dist_km": 0.0057,
+  "dist_over_radius": 0.0295,
+  "trade_fit": 0.0122,
+  "trade_fit_first": 0.0239,
+  "label_in_profile": 0.0,
+  "n_profile_trades": 0.0037,
+  "size_fit": 0.0608,
+  "log_volume": 0.0078,
+  "lead_days": 0.0044,
+  "december": 0.0,
+  "invites_365": 0.7148,
+  "bids_365": 0.6193,
+  "bid_rate": 0.2948,
+  "comp_rate": 0.2829,
+  "awards_365": 0.2874,
+  "trade_bids_365": 0.5222,
+  "log_age_days": 0.2609,
+  "is_new": 0.0,
+  "load_14": 0.7369,
+  "invites_14": 0.2423,
+  "buyer_invites": 0.0225,
+  "buyer_bids": 0.0,
+  "buyer_awards": 0.0,
+  "price_med_trade": 0.294,
+  "price_n_trade": 0.5222
+ },
+ "alerts": [
+  {
+   "metric": "feature_psi",
+   "value": 0.7369,
+   "severity": "ticket",
+   "limit": {
+    "max": 0.2
+   }
+  }
+ ]
+}

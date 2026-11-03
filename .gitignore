@@ -1,0 +1,14 @@
+data/
+runs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+web/node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
+*.egg-info/
+fixtures/llm_cache/tmp/

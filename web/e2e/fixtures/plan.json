@@ -1,0 +1,382 @@
+{
+ "request": {
+  "city": "Leipzig",
+  "deadline": "2026-12-15",
+  "exclude_firm_ids": [],
+  "lots": [
+   {
+    "title": "Los 1 Trockenbau",
+    "text": "Metallständerwände CW 75, abgehängte GK-Decken, ca. 1.800 m²"
+   },
+   {
+    "title": "Los 2 Estrich",
+    "text": "Zementestrich schwimmend auf Trittschalldämmung, 950 m²"
+   },
+   {
+    "title": "Los 3 Maler",
+    "text": "Dispersionsanstrich Wände und Decken, Q3-Spachtelung"
+   }
+  ],
+  "max_km": null,
+  "min_invites": 8
+ },
+ "lots": [
+  {
+   "title": "Los 1 Trockenbau",
+   "trade": "trockenbau",
+   "trade_prob": 0.869,
+   "offered": [
+    {
+     "firm_id": 3781,
+     "score": 0.4161,
+     "reasons": [
+      "11 km entfernt",
+      "3 Angebote in 12 Monaten (85% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 1446,
+     "score": 0.3021,
+     "reasons": [
+      "21 km entfernt",
+      "3 Angebote in 12 Monaten (49% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 5060,
+     "score": 0.2335,
+     "reasons": [
+      "14 km entfernt",
+      "4 Angebote in 12 Monaten (55% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 89,
+     "score": 0.2115,
+     "reasons": [
+      "13 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    },
+    {
+     "firm_id": 2021,
+     "score": 0.2052,
+     "reasons": [
+      "142 km entfernt",
+      "34 Angebote in 12 Monaten (64% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 1639,
+     "score": 0.2033,
+     "reasons": [
+      "206 km entfernt",
+      "20 Angebote in 12 Monaten (40% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 2190,
+     "score": 0.2032,
+     "reasons": [
+      "13 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    },
+    {
+     "firm_id": 3717,
+     "score": 0.1965,
+     "reasons": [
+      "144 km entfernt",
+      "12 Angebote in 12 Monaten (52% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 3561,
+     "score": 0.1915,
+     "reasons": [
+      "11 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    },
+    {
+     "firm_id": 108,
+     "score": 0.1907,
+     "reasons": [
+      "19 km entfernt",
+      "1 Angebote in 12 Monaten (28% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 2476,
+     "score": 0.1891,
+     "reasons": [
+      "4 km entfernt",
+      "17 Angebote in 12 Monaten (41% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 1533,
+     "score": 0.1786,
+     "reasons": [
+      "28 km entfernt",
+      "20 Angebote in 12 Monaten (66% der Anfragen)"
+     ]
+    }
+   ],
+   "invite": [
+    3781,
+    1446,
+    5060,
+    89,
+    2021,
+    1639,
+    2190,
+    3717
+   ],
+   "message": "Sehr geehrte Damen und Herren,\n\nwir laden Sie herzlich zur Angebotsabgabe für „Los 1 Trockenbau“ im Rahmen des Neubaus der Kita „Sonnenblume“ in Leipzig ein. Die Ausschreibungsunterlagen stehen Ihnen im Projektraum zur Verfügung. Die Angebotsfrist endet am 15.12.2026.\n\nMit freundlichen Grüßen",
+   "escalate": false,
+   "reason": "Shortlist has 12 firms, minimum of 8 met. Top 8 invited in ranking order.",
+   "verified": true
+  },
+  {
+   "title": "Los 2 Estrich",
+   "trade": "estrich",
+   "trade_prob": 0.973,
+   "offered": [
+    {
+     "firm_id": 3474,
+     "score": 0.308,
+     "reasons": [
+      "18 km entfernt",
+      "5 Angebote in 12 Monaten (54% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 4794,
+     "score": 0.257,
+     "reasons": [
+      "16 km entfernt",
+      "22 Angebote in 12 Monaten (70% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 807,
+     "score": 0.2497,
+     "reasons": [
+      "149 km entfernt",
+      "37 Angebote in 12 Monaten (68% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 4245,
+     "score": 0.2253,
+     "reasons": [
+      "3 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    },
+    {
+     "firm_id": 334,
+     "score": 0.2081,
+     "reasons": [
+      "7 km entfernt",
+      "5 Angebote in 12 Monaten (34% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 1868,
+     "score": 0.1924,
+     "reasons": [
+      "21 km entfernt",
+      "1 Angebote in 12 Monaten (23% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 5052,
+     "score": 0.1852,
+     "reasons": [
+      "153 km entfernt",
+      "23 Angebote in 12 Monaten (48% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 247,
+     "score": 0.169,
+     "reasons": [
+      "25 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    },
+    {
+     "firm_id": 3924,
+     "score": 0.1683,
+     "reasons": [
+      "120 km entfernt",
+      "6 Angebote in 12 Monaten (46% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 4009,
+     "score": 0.1611,
+     "reasons": [
+      "241 km entfernt",
+      "14 Angebote in 12 Monaten (40% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 678,
+     "score": 0.1601,
+     "reasons": [
+      "26 km entfernt",
+      "1 Angebote in 12 Monaten (28% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 1986,
+     "score": 0.1517,
+     "reasons": [
+      "162 km entfernt",
+      "7 Angebote in 12 Monaten (31% der Anfragen)"
+     ]
+    }
+   ],
+   "invite": [
+    3474,
+    4794,
+    807,
+    4245,
+    334,
+    1868,
+    5052,
+    247
+   ],
+   "message": "Sehr geehrte Damen und Herren,\n\nwir laden Sie herzlich zur Angebotsabgabe für „Los 2 Estrich“ im Rahmen des Neubaus der Kita „Sonnenblume“ in Leipzig ein. Die Ausschreibungsunterlagen stehen Ihnen im Projektraum zur Verfügung. Die Angebotsfrist endet am 15.12.2026.\n\nMit freundlichen Grüßen",
+   "escalate": false,
+   "reason": "Shortlist has 12 firms, minimum of 8 met. Top 8 invited in ranking order.",
+   "verified": true
+  },
+  {
+   "title": "Los 3 Maler",
+   "trade": "maler",
+   "trade_prob": 0.862,
+   "offered": [
+    {
+     "firm_id": 2796,
+     "score": 0.3287,
+     "reasons": [
+      "5 km entfernt",
+      "19 Angebote in 12 Monaten (54% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 1408,
+     "score": 0.248,
+     "reasons": [
+      "166 km entfernt",
+      "3 Angebote in 12 Monaten (57% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 400,
+     "score": 0.2365,
+     "reasons": [
+      "133 km entfernt",
+      "17 Angebote in 12 Monaten (62% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 3179,
+     "score": 0.2282,
+     "reasons": [
+      "31 km entfernt",
+      "8 Angebote in 12 Monaten (42% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 4003,
+     "score": 0.214,
+     "reasons": [
+      "12 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    },
+    {
+     "firm_id": 23,
+     "score": 0.2088,
+     "reasons": [
+      "23 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    },
+    {
+     "firm_id": 3264,
+     "score": 0.2055,
+     "reasons": [
+      "15 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    },
+    {
+     "firm_id": 1386,
+     "score": 0.2008,
+     "reasons": [
+      "11 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    },
+    {
+     "firm_id": 1027,
+     "score": 0.1875,
+     "reasons": [
+      "104 km entfernt",
+      "5 Angebote in 12 Monaten (34% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 1459,
+     "score": 0.1868,
+     "reasons": [
+      "15 km entfernt",
+      "10 Angebote in 12 Monaten (29% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 3785,
+     "score": 0.1854,
+     "reasons": [
+      "90 km entfernt",
+      "1 Angebote in 12 Monaten (47% der Anfragen)"
+     ]
+    },
+    {
+     "firm_id": 313,
+     "score": 0.1814,
+     "reasons": [
+      "21 km entfernt",
+      "noch keine Angebote über die Plattform"
+     ]
+    }
+   ],
+   "invite": [
+    2796,
+    1408,
+    400,
+    3179,
+    4003,
+    23,
+    3264,
+    1386
+   ],
+   "message": "Sehr geehrte Damen und Herren,\n\nwir laden Sie herzlich zur Angebotsabgabe für „Los 3 Maler“ im Rahmen des Neubaus der Kita „Sonnenblume“ in Leipzig ein. Die Ausschreibungsunterlagen stehen Ihnen im Projektraum zur Verfügung. Die Angebotsfrist endet am 15.12.2026.\n\nMit freundlichen Grüßen",
+   "escalate": false,
+   "reason": "Shortlist has 12 firms, minimum of 8 met. Top 8 invited in ranking order.",
+   "verified": true
+  }
+ ],
+ "violations": [],
+ "model": {
+  "calls": 2,
+  "cost_usd": 0.00742,
+  "replayed": 2
+ }
+}

@@ -1,0 +1,82 @@
+# Dev cases for the invite planner (written by the developer; they are not a blind set).
+# expect: what the request says; the evaluation checks extraction, trades and the invariants.
+- id: a01
+  request: |
+    Neubau Kita "Sonnenblume", Leipzig. Bitte Ausschreibung an Nachunternehmer:
+    Los 1 Trockenbau: Metallständerwände CW 75, abgehängte GK-Decken, ca. 1.800 m²
+    Los 2 Estrich: Zementestrich schwimmend auf Trittschalldämmung, 950 m²
+    Los 3 Maler: Dispersionsanstrich Wände und Decken, Q3-Spachtelung
+    Angebotsfrist 15.12.2026. Mindestens 8 Firmen je Los.
+  expect: { city: Leipzig, deadline: "2026-12-15", min_invites: 8, max_km: null, exclude: [], trades: [trockenbau, estrich, maler] }
+- id: a02
+  request: |
+    Sanierung Bürogebäude in Köln, Fassade.
+    Los 1 Gerüst: Fassadengerüst LK3 für 6 Wochen
+    Los 2 WDVS: Mineralwolle 160 mm mit Oberputz
+    Angebote bis 08.01.2027. Nur Firmen bis 80 km. Bitte nicht Firma 1203 einladen.
+  expect: { city: Köln, deadline: "2027-01-08", min_invites: null, max_km: 80, exclude: [1203], trades: [geruest, putz] }
+- id: a03
+  request: |
+    Hi, please send our tender for a warehouse in Hamburg to subcontractors. Bid deadline 20.12.2026.
+    Lot 1 Steel structure: S355 frames, roughly 140 t, hot-dip galvanised
+    Lot 2 Roofing: trapezoidal sheet roof with FPO membrane, 6,500 m²
+    At least 6 firms per lot.
+  expect: { city: Hamburg, deadline: "2026-12-20", min_invites: 6, max_km: null, exclude: [], trades: [stahlbau, dachdecker] }
+- id: a04
+  request: |
+    Wohnungsbau München-Riem, 48 WE. Gewerk HLS:
+    Los 40 Heizung: Fußbodenheizung und Wärmepumpe 60 kW
+    Los 41 Sanitär: Trinkwasser Edelstahl, Abwasser HT, 96 WCs
+    Los 42 Lüftung: dezentrale Lüftungsgeräte mit WRG, 48 Stk
+    Frist 18.12.2026
+  expect: { city: München, deadline: "2026-12-18", min_invites: null, max_km: null, exclude: [], trades: [heizung, sanitaer, lueftung] }
+- id: a05
+  request: |
+    Schule Dortmund, Bauteil B. Los 7 Elektro: Starkstrom, Beleuchtung LED, Brandmeldeanlage.
+    Angebotsfrist 11.01.2027. Ohne ID 88 und ohne ID 4100.
+  expect: { city: Dortmund, deadline: "2027-01-11", min_invites: null, max_km: null, exclude: [88, 4100], trades: [elektro] }
+- id: a06
+  request: |
+    Projekt Hotel Frankfurt am Main. Wir brauchen Angebote für
+    Los 12 Fliesen: Bäder Feinsteinzeug 60x60, Verbundabdichtung
+    Los 13 Bodenbelag: Teppichfliesen in Zimmern, Vinyl in Fluren
+    Los 14 Tischler: Zimmertüren mit Stahlzarge, Einbauschränke
+    bis zum 05.01.2027, gern 10 Firmen pro Los, max. 120 km.
+  expect: { city: Frankfurt am Main, deadline: "2027-01-05", min_invites: 10, max_km: 120, exclude: [], trades: [fliesen, bodenbelag, tischler] }
+- id: a07
+  request: |
+    Rückbau Industriehalle Duisburg: Entkernung, Asbestsanierung nach TRGS 519, Abbruch der Stahlbetonstützen.
+    Ein Los "Abbruch". Frist 14.12.2026.
+  expect: { city: Duisburg, deadline: "2026-12-14", min_invites: null, max_km: null, exclude: [], trades: [abbruch] }
+- id: a08
+  request: |
+    Neubau Einfamilienhaus Potsdam
+    Los 1 Erdarbeiten: Aushub Baugrube, Abtransport 400 m³
+    Los 2 Rohbau: Bodenplatte, KS-Mauerwerk, Filigrandecken
+    Los 3 Dach: Satteldach mit Ziegeldeckung, Dachrinnen Titanzink
+    Angebotsfrist 22.12.2026, mindestens 5 Firmen.
+  expect: { city: Potsdam, deadline: "2026-12-22", min_invites: 5, max_km: null, exclude: [], trades: [erdarbeiten, rohbau, dachdecker] }
+- id: a09
+  request: |
+    Ausschreibung Außenanlagen Wohnquartier Hannover: Pflaster, Rasen, Bäume, Spielplatz.
+    Los 1 Außenanlagen. Frist 30.12.2026. Firma 2300 bitte nicht.
+  expect: { city: Hannover, deadline: "2026-12-30", min_invites: null, max_km: null, exclude: [2300], trades: [aussenanlagen] }
+- id: a10
+  request: |
+    Bürogebäude Stuttgart, 6 Geschosse.
+    Los 21 Aufzug: 2 Personenaufzüge 1.000 kg, 7 Haltestellen
+    Los 22 Fenster: Alu-Pfosten-Riegel-Fassade, 1.200 m²
+    Frist 12.01.2027, max 150 km
+  expect: { city: Stuttgart, deadline: "2027-01-12", min_invites: null, max_km: 150, exclude: [], trades: [aufzug, fenster] }
+- id: a11
+  request: |
+    Kleine Ausschreibung Berlin-Pankow: Los 1 Maler, Treppenhaus streichen, ca. 600 m². Frist 10.12.2026.
+    Bitte mindestens 12 Einladungen, Umkreis 25 km.
+  expect: { city: Berlin, deadline: "2026-12-10", min_invites: 12, max_km: 25, exclude: [], trades: [maler] }
+- id: a12
+  request: |
+    Holzbau Kindergarten Freiburg im Breisgau:
+    Los 1 Zimmerer: Holzrahmenbau vorgefertigt, BSH-Binder
+    Los 2 Klempner: Dachentwässerung Titanzink, Attikaverblechung
+    Frist 07.01.2027
+  expect: { city: Freiburg im Breisgau, deadline: "2027-01-07", min_invites: null, max_km: null, exclude: [], trades: [zimmerer, klempner] }

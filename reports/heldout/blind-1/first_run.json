@@ -1,0 +1,391 @@
+{
+ "lots": 196,
+ "tfidf": {
+  "accuracy": 0.6173,
+  "macro_f1": 0.6217,
+  "top3": 0.8316,
+  "low_confidence_share": 0.5051,
+  "by_kind": {
+   "easy": 0.912,
+   "hard": 0.458,
+   "mixed": 0.722,
+   "near-miss": 0.469
+  }
+ },
+ "hash": {
+  "accuracy": 0.6327,
+  "macro_f1": 0.6507,
+  "top3": 0.8112,
+  "low_confidence_share": 0.5153,
+  "by_kind": {
+   "easy": 0.912,
+   "hard": 0.528,
+   "mixed": 0.667,
+   "near-miss": 0.449
+  }
+ },
+ "misses": [
+  {
+   "id": "lot-010",
+   "trade": "geruest",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-011",
+   "trade": "fenster",
+   "read_as": "elektro"
+  },
+  {
+   "id": "lot-015",
+   "trade": "elektro",
+   "read_as": "heizung"
+  },
+  {
+   "id": "lot-020",
+   "trade": "fenster",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-023",
+   "trade": "trockenbau",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-025",
+   "trade": "maler",
+   "read_as": "fenster"
+  },
+  {
+   "id": "lot-027",
+   "trade": "rohbau",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-029",
+   "trade": "fliesen",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-032",
+   "trade": "heizung",
+   "read_as": "stahlbau"
+  },
+  {
+   "id": "lot-040",
+   "trade": "stahlbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-043",
+   "trade": "bodenbelag",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-044",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-045",
+   "trade": "fliesen",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-048",
+   "trade": "stahlbau",
+   "read_as": "putz"
+  },
+  {
+   "id": "lot-050",
+   "trade": "aussenanlagen",
+   "read_as": "putz"
+  },
+  {
+   "id": "lot-051",
+   "trade": "bodenbelag",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-052",
+   "trade": "bodenbelag",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-054",
+   "trade": "trockenbau",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-056",
+   "trade": "dachdecker",
+   "read_as": "zimmerer"
+  },
+  {
+   "id": "lot-062",
+   "trade": "aufzug",
+   "read_as": "aussenanlagen"
+  },
+  {
+   "id": "lot-064",
+   "trade": "bodenbelag",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-072",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-078",
+   "trade": "tischler",
+   "read_as": "fenster"
+  },
+  {
+   "id": "lot-079",
+   "trade": "trockenbau",
+   "read_as": "fenster"
+  },
+  {
+   "id": "lot-081",
+   "trade": "aussenanlagen",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-085",
+   "trade": "dachdecker",
+   "read_as": "klempner"
+  },
+  {
+   "id": "lot-090",
+   "trade": "sanitaer",
+   "read_as": "trockenbau"
+  },
+  {
+   "id": "lot-091",
+   "trade": "lueftung",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-092",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-093",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-095",
+   "trade": "heizung",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-098",
+   "trade": "fenster",
+   "read_as": "elektro"
+  },
+  {
+   "id": "lot-100",
+   "trade": "sanitaer",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-101",
+   "trade": "geruest",
+   "read_as": "bodenbelag"
+  },
+  {
+   "id": "lot-102",
+   "trade": "trockenbau",
+   "read_as": "estrich"
+  },
+  {
+   "id": "lot-105",
+   "trade": "fenster",
+   "read_as": "tischler"
+  },
+  {
+   "id": "lot-106",
+   "trade": "sanitaer",
+   "read_as": "heizung"
+  },
+  {
+   "id": "lot-107",
+   "trade": "aussenanlagen",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-109",
+   "trade": "estrich",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-110",
+   "trade": "aufzug",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-112",
+   "trade": "trockenbau",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-114",
+   "trade": "fliesen",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-115",
+   "trade": "abbruch",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-120",
+   "trade": "aussenanlagen",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-122",
+   "trade": "aussenanlagen",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-124",
+   "trade": "elektro",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-134",
+   "trade": "sanitaer",
+   "read_as": "klempner"
+  },
+  {
+   "id": "lot-135",
+   "trade": "tischler",
+   "read_as": "fenster"
+  },
+  {
+   "id": "lot-137",
+   "trade": "lueftung",
+   "read_as": "aussenanlagen"
+  },
+  {
+   "id": "lot-144",
+   "trade": "klempner",
+   "read_as": "heizung"
+  },
+  {
+   "id": "lot-145",
+   "trade": "aufzug",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-149",
+   "trade": "trockenbau",
+   "read_as": "putz"
+  },
+  {
+   "id": "lot-152",
+   "trade": "tischler",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-153",
+   "trade": "stahlbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-154",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-163",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-166",
+   "trade": "abbruch",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-167",
+   "trade": "fenster",
+   "read_as": "tischler"
+  },
+  {
+   "id": "lot-168",
+   "trade": "klempner",
+   "read_as": "fenster"
+  },
+  {
+   "id": "lot-169",
+   "trade": "aufzug",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-171",
+   "trade": "bodenbelag",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-172",
+   "trade": "putz",
+   "read_as": "maler"
+  },
+  {
+   "id": "lot-173",
+   "trade": "putz",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-175",
+   "trade": "tischler",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-176",
+   "trade": "elektro",
+   "read_as": "sanitaer"
+  },
+  {
+   "id": "lot-185",
+   "trade": "abbruch",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-188",
+   "trade": "rohbau",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-189",
+   "trade": "zimmerer",
+   "read_as": "stahlbau"
+  },
+  {
+   "id": "lot-192",
+   "trade": "klempner",
+   "read_as": "dachdecker"
+  },
+  {
+   "id": "lot-193",
+   "trade": "aussenanlagen",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-194",
+   "trade": "dachdecker",
+   "read_as": "erdarbeiten"
+  },
+  {
+   "id": "lot-196",
+   "trade": "stahlbau",
+   "read_as": "tischler"
+  }
+ ],
+ "status": "blind",
+ "ran_at": "2026-11-03T19:46:26+00:00"
+}

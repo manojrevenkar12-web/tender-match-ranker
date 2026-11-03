@@ -1,0 +1,33 @@
+{
+ "lot_id": 18786,
+ "tender_id": 7518,
+ "buyer_id": 109,
+ "published": "2026-06-01",
+ "deadline": "2026-06-09",
+ "city": "Rostock",
+ "lat": 54.16423784690344,
+ "lon": 12.069000057313188,
+ "trade_label": "heizung",
+ "title": "LV 02 Lüftungstechnik",
+ "text": "Volumenstromregler, 6.742 Stk\nBrandschutzklappen K90, 5 Stk\nZuluftdurchlässe Drallauslass, 22 Stk",
+ "reference_eur": 431722.77,
+ "month": 17,
+ "split": "heldout",
+ "trades": [
+  {
+   "trade": "lueftung",
+   "name": "Raumlufttechnische Anlagen",
+   "prob": 0.714
+  },
+  {
+   "trade": "heizung",
+   "name": "Heizungsanlagen",
+   "prob": 0.286
+  },
+  {
+   "trade": "sanitaer",
+   "name": "Sanitär (Gas-, Wasser-, Entwässerungsanlagen)",
+   "prob": 0.0
+  }
+ ]
+}

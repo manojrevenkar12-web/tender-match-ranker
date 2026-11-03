@@ -1,0 +1,25 @@
+# The trades (Gewerke) a lot is tendered in and a subcontractor works in. The keys are the platform's;
+# the norms are the VOB/C ATV each trade is usually tendered under.
+trades:
+  erdarbeiten:   { name: "Erdarbeiten",                          norm: "DIN 18300" }
+  rohbau:        { name: "Rohbau (Beton-, Stahlbeton-, Mauerarbeiten)", norm: "DIN 18331, DIN 18330" }
+  stahlbau:      { name: "Stahlbauarbeiten",                     norm: "DIN 18335" }
+  zimmerer:      { name: "Zimmer- und Holzbauarbeiten",          norm: "DIN 18334" }
+  dachdecker:    { name: "Dachdeckungs- und Dachabdichtungsarbeiten", norm: "DIN 18338, DIN 18336" }
+  klempner:      { name: "Klempnerarbeiten",                     norm: "DIN 18339" }
+  fenster:       { name: "Fenster, Türen, Metallbau",            norm: "DIN 18360, DIN 18355" }
+  trockenbau:    { name: "Trockenbauarbeiten",                   norm: "DIN 18340" }
+  putz:          { name: "Putz-, Stuck- und WDVS-Arbeiten",      norm: "DIN 18350, DIN 18345" }
+  estrich:       { name: "Estricharbeiten",                      norm: "DIN 18353" }
+  fliesen:       { name: "Fliesen- und Plattenarbeiten",         norm: "DIN 18352" }
+  maler:         { name: "Maler- und Lackierarbeiten",           norm: "DIN 18363" }
+  bodenbelag:    { name: "Bodenbelag- und Parkettarbeiten",      norm: "DIN 18365, DIN 18356" }
+  tischler:      { name: "Tischlerarbeiten (Innenausbau)",       norm: "DIN 18355" }
+  heizung:       { name: "Heizungsanlagen",                      norm: "DIN 18380" }
+  sanitaer:      { name: "Sanitär (Gas-, Wasser-, Entwässerungsanlagen)", norm: "DIN 18381" }
+  lueftung:      { name: "Raumlufttechnische Anlagen",           norm: "DIN 18379" }
+  elektro:       { name: "Elektro- und Sicherheitstechnik",      norm: "DIN 18382" }
+  aufzug:        { name: "Aufzugsanlagen",                       norm: "DIN 18385" }
+  geruest:       { name: "Gerüstarbeiten",                       norm: "DIN 18451" }
+  abbruch:       { name: "Abbruch- und Rückbauarbeiten",         norm: "DIN 18459" }
+  aussenanlagen: { name: "Außenanlagen, Pflaster, Landschaftsbau", norm: "DIN 18318, DIN 18320" }

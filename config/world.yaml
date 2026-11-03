@@ -1,0 +1,145 @@
+# The simulated market. Read ONLY by tmr/sim and tmr/evaluate (tests/test_isolation.py checks it).
+# The platform learns from what the market logs; it never sees these parameters.
+seed: 20261103
+profiles:
+  full:  { months: 18, subcontractors: 5200, gcs: 260, tenders_per_month: 420 }
+  quick: { months: 8,  subcontractors: 1400, gcs: 80,  tenders_per_month: 130 }
+start: "2025-01-06"
+splits:            # by publication month index; test and the held-out month are later than training
+  train_until: -4  # months before the end
+  test_months: 3
+  heldout_months: 1
+
+cities:            # name: [lat, lon, weight]
+  Berlin: [52.520, 13.405, 10]
+  Hamburg: [53.551, 9.994, 7]
+  München: [48.137, 11.575, 8]
+  Köln: [50.938, 6.960, 6]
+  Frankfurt am Main: [50.110, 8.682, 6]
+  Stuttgart: [48.776, 9.183, 5]
+  Düsseldorf: [51.228, 6.774, 5]
+  Leipzig: [51.340, 12.375, 4]
+  Dortmund: [51.514, 7.468, 3]
+  Essen: [51.456, 7.012, 3]
+  Bremen: [53.079, 8.802, 3]
+  Dresden: [51.050, 13.738, 3]
+  Hannover: [52.375, 9.732, 4]
+  Nürnberg: [49.452, 11.077, 4]
+  Duisburg: [51.434, 6.762, 2]
+  Bochum: [51.482, 7.216, 2]
+  Bielefeld: [52.030, 8.532, 2]
+  Bonn: [50.737, 7.098, 2]
+  Münster: [51.962, 7.626, 2]
+  Mannheim: [49.488, 8.466, 2]
+  Karlsruhe: [49.007, 8.404, 2]
+  Augsburg: [48.371, 10.898, 2]
+  Wiesbaden: [50.078, 8.240, 2]
+  Mainz: [49.993, 8.247, 2]
+  Kiel: [54.323, 10.123, 1]
+  Rostock: [54.092, 12.099, 1]
+  Erfurt: [50.978, 11.029, 1]
+  Magdeburg: [52.120, 11.628, 1]
+  Potsdam: [52.391, 13.064, 2]
+  Freiburg im Breisgau: [47.999, 7.842, 1]
+  Regensburg: [49.013, 12.102, 1]
+
+trade_weights:     # share of lots per trade
+  erdarbeiten: 5
+  rohbau: 9
+  stahlbau: 3
+  zimmerer: 3
+  dachdecker: 5
+  klempner: 2
+  fenster: 6
+  trockenbau: 8
+  putz: 5
+  estrich: 4
+  fliesen: 5
+  maler: 7
+  bodenbelag: 5
+  tischler: 4
+  heizung: 5
+  sanitaer: 5
+  lueftung: 4
+  elektro: 8
+  aufzug: 1
+  geruest: 3
+  abbruch: 3
+  aussenanlagen: 4
+neighbours:        # trades whose firms often also do the other one (secondary trades)
+  putz: [maler, trockenbau]
+  maler: [putz, bodenbelag]
+  trockenbau: [putz, maler]
+  estrich: [bodenbelag, fliesen]
+  bodenbelag: [estrich, maler]
+  fliesen: [estrich]
+  heizung: [sanitaer, lueftung]
+  sanitaer: [heizung]
+  lueftung: [heizung]
+  dachdecker: [klempner, zimmerer]
+  klempner: [dachdecker]
+  zimmerer: [dachdecker]
+  fenster: [tischler]
+  tischler: [fenster]
+  erdarbeiten: [aussenanlagen, abbruch]
+  aussenanlagen: [erdarbeiten]
+  abbruch: [erdarbeiten]
+  rohbau: [erdarbeiten]
+  stahlbau: [fenster]
+  elektro: []
+  aufzug: []
+  geruest: []
+
+lot_volume_eur:    # median and spread (lognormal sigma) of a lot's value
+  default: [180000, 0.9]
+  rohbau: [900000, 0.8]
+  aufzug: [140000, 0.5]
+  geruest: [60000, 0.7]
+  maler: [90000, 0.8]
+
+subcontractor:
+  secondary_trades: [0.45, 0.2]       # P(one secondary), P(two)
+  radius_km: [35, 220]                # range of how far a firm travels
+  size_mix: { small: 0.55, medium: 0.33, large: 0.12 }
+  size_volume_eur: { small: [10000, 250000], medium: [60000, 1500000], large: [300000, 12000000] }
+  bids_per_month: { small: [1, 4], medium: [3, 9], large: [6, 18] }
+  price_level_sigma: 0.07             # firm's price level around the market
+  responsiveness: [-1.4, 0.9]         # mean, sd of a firm's base log-odds of bidding
+  new_firms_share: 0.28               # share that join during the simulation (cold start)
+  churn_per_month: 0.008
+
+gc:
+  relationship_share: 0.04            # share of a GC's region-trade firms it knows well
+  relationship_boost: 1.3             # log-odds of bidding for a GC the firm knows
+  wrong_trade_label: 0.07             # GCs who file a lot under a neighbouring or generic trade
+
+response:                             # truth of P(bid | invited)
+  intercept: -0.2
+  primary_trade: 1.6
+  secondary_trade: 0.4
+  other_trade: -3.5
+  beyond_radius: -2.5                 # per radius beyond the firm's radius
+  distance_per_100km: -0.35
+  size_misfit: -1.2                   # lot volume outside the firm's range
+  load_slope: -1.6                    # per unit of invitations in the last 14 days over monthly capacity
+  short_lead_days: 10                 # fewer days to the deadline than this costs...
+  short_lead_penalty: -0.8
+  december: -0.4
+
+price:                                # a bid's unit price relative to the true market price
+  noise_sigma: 0.06
+  distance_markup_per_100km: 0.02
+  busy_markup: 0.05                   # per unit of load over capacity
+  reference_error_sigma: 0.05         # the platform's own reference price is an estimate
+competitive_within: 0.05              # a bid is competitive if price <= reference * (1 + this)
+
+logging_policy:                       # how the platform ranked before this project (rules)
+  shown: 20                           # candidates shown to the buyer per lot
+  exploration_share: 0.08             # lots whose shortlist is randomised (Plackett-Luce), with propensities
+  exploration_temperature: 1.5
+buyer:                                # how a buyer picks from the shortlist (position bias)
+  invites: [6, 14]
+  exam_decay: 0.45                    # examination ~ 1 / (1 + position) ** decay
+  attractiveness_base: 1.1
+  attractiveness_noise: 0.6
+  relationship_pull: 1.0

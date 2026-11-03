@@ -1,0 +1,9 @@
+# The release gate on the test months. A candidate ranker ships only if all of these hold.
+gates:
+  ope_lift_lower_ci: 0.0         # doubly-robust lift over the current rules: 95 % lower bound above this
+  calibration_ece_max: 0.03      # P(bid) calibration on test
+  trade_reader_macro_f1_min: 0.85
+  new_firm_exposure_min: 0.05    # share of shortlist slots that go to new firms
+  top1pct_share_max: 0.12        # share of invitations to the busiest 1 % of firms (market replay)
+  replay_value_drop_max: 0.10    # market replay may lose at most 10 % of the offline estimate to fatigue
+  serving_p95_ms_max: 120

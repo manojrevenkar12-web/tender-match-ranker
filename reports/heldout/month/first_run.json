@@ -1,0 +1,26 @@
+{
+ "lots": 1086,
+ "rules": {
+  "expected_competitive_per_lot": 1.3556,
+  "realised_competitive_per_lot": 1.4319,
+  "bids_per_lot": 2.291
+ },
+ "ranker": {
+  "expected_competitive_per_lot": 1.854,
+  "realised_competitive_per_lot": 1.8656,
+  "bids_per_lot": 2.7606
+ },
+ "lift": 0.3677,
+ "monitoring_alerts": [
+  {
+   "metric": "feature_psi",
+   "value": 0.7369,
+   "severity": "ticket",
+   "limit": {
+    "max": 0.2
+   }
+  }
+ ],
+ "status": "blind",
+ "ran_at": "2026-11-03T19:54:38+00:00"
+}

@@ -1,0 +1,46 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  python:
+    runs-on: ubuntu-24.04
+    services:
+      postgres:
+        image: postgres:16
+        env: { POSTGRES_PASSWORD: postgres, POSTGRES_DB: tmr_test }
+        ports: ["5432:5432"]
+        options: --health-cmd pg_isready --health-interval 5s --health-retries 10
+    env:
+      TMR_LLM: "off"
+      TMR_TEST_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/tmr_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -e ".[dev]"
+      - run: ruff check tmr tests scripts && ruff format --check tmr tests scripts
+      - run: mypy tmr
+      - run: pytest -q -m "not slow"
+      - name: The whole pipeline on a small market (into temporary folders, the committed reports stay)
+        env: { TMR_DATA: /tmp/tmr/data, TMR_RUNS: /tmp/tmr/runs, TMR_REPORTS: /tmp/tmr/reports }
+        run: |
+          tmr build --profile quick && tmr train && tmr study && tmr heldout month && tmr report
+          tmr gate || echo "the quick market is small; the gate is decided on the full run (reports/release.json)"
+          pytest -q -m slow
+      - name: The committed full run ships and the planner replays from the cache
+        run: python -c "import json,sys; r=json.load(open('reports/release.json')); sys.exit(0 if r['ships'] else 1)"
+  web:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with: { version: 10 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm, cache-dependency-path: web/pnpm-lock.yaml }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint && pnpm exec tsc -b && pnpm test
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm e2e

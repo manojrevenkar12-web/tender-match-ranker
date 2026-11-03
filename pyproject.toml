@@ -34,6 +34,7 @@ include = ["tmr*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]
 markers = [
   "slow: builds a market and trains the models (a few minutes)",
   "db: needs PostgreSQL in TMR_TEST_DATABASE_URL",

@@ -54,6 +54,7 @@ test("selecting firms moves the expected comparable bids", async ({ page }) => {
   await mockApi(page);
   await page.goto(`/#/lots/${detail.lot_id}`);
   const out = page.locator("output.tape-number");
+  await expect(page.getByRole("button", { name: "Invite 10 firms" })).toBeVisible(); // the default selection is in
   const before = Number(await out.textContent());
   await page.getByRole("checkbox").first().uncheck();
   await expect(out).not.toHaveText(before.toFixed(1));
